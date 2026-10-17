@@ -1,80 +1,72 @@
 skeleton.png
-size: 1402, 2038
+size: 1807, 1179
 filter: Linear, Linear
 pma: false
 bottomwear
-bounds: 683, 2, 370, 1093
-offsets: 0, 0, 370, 1093
+bounds: 683, 2, 393, 1146
+offsets: 0, 0, 393, 1146
 rotate: 0
 brow_l
-bounds: 1157, 1696, 50, 31
+bounds: 1256, 714, 50, 31
 offsets: 0, 0, 50, 31
 rotate: 0
 brow_r
-bounds: 474, 1034, 83, 33
+bounds: 1454, 722, 83, 33
 offsets: 0, 0, 83, 33
 rotate: 0
-cardigan
-bounds: 2, 2, 677, 1176
-offsets: 0, 0, 677, 1176
-rotate: 0
 ear_l
-bounds: 578, 410, 48, 61
+bounds: 1264, 2, 48, 61
 offsets: 0, 0, 48, 61
 rotate: 0
 ear_r
-bounds: 1197, 1611, 47, 81
+bounds: 1618, 370, 47, 81
 offsets: 0, 0, 47, 81
 rotate: 0
 earring
-bounds: 1080, 1487, 49, 72
+bounds: 183, 670, 49, 72
 offsets: 0, 0, 49, 72
 rotate: 0
 face
-bounds: 217, 26, 184, 241
+bounds: 1604, 730, 184, 241
 offsets: 0, 0, 184, 241
 rotate: 0
 hair_back
-bounds: 1000, 1523, 393, 361
+bounds: 1273, 370, 393, 361
 offsets: 0, 0, 393, 361
 rotate: 0
 hair_front
-bounds: 249, 696, 222, 170
+bounds: 1271, 735, 222, 170
 offsets: 0, 0, 222, 170
 rotate: 0
-hands
-bounds: 2, 1182, 687, 854
-offsets: 0, 0, 687, 854
-rotate: 0
 lash_l
-bounds: 579, 1106, 50, 29
+bounds: 1266, 442, 50, 29
 offsets: 0, 0, 50, 29
 rotate: 0
 lash_r
-bounds: 231, 1026, 64, 34
+bounds: 1430, 98, 64, 34
 offsets: 0, 0, 64, 34
 rotate: 0
 mouth
-bounds: 490, 978, 74, 48
+bounds: 1443, 474, 74, 48
 offsets: 0, 0, 74, 48
 rotate: 0
 neck
-bounds: 877, 1571, 122, 161
-offsets: 0, 0, 122, 161
+bounds: 1268, 146, 186, 189
+offsets: 0, 0, 186, 189
 rotate: 0
 nose
-bounds: 1160, 1643, 33, 47
+bounds: 197, 610, 33, 47
 offsets: 0, 0, 33, 47
 rotate: 0
 shoes
-bounds: 218, 426, 264, 266
-offsets: 0, 0, 264, 266
+bounds: 234, 570, 268, 216
+offsets: 0, 0, 268, 216
 rotate: 0
 sleeves
-bounds: 692, 1099, 697, 607
-offsets: 0, 0, 697, 607
+bounds: 1080, 2, 725, 964
+offsets: 0, 0, 725, 964
 rotate: 0
 topwear
-bounds: 1057, 2, 343, 674
-offsets: 0, 0, 343, 674
+bounds: 2, 2, 677, 1175
+offsets: 0, 0, 677, 1175
 rotate: 0

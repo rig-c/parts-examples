@@ -1,5 +1,5 @@
   ..    50 assertions: 26 measured (26 passed, 0 failed), 24 skipped, 0 not in profile "rig-play"
   ..    pages=22 regions=22 bones=107 slots=22 animations=1 version=4.3.13 regionAttachments=16 meshAttachments=6 physicsConstraints=31 physicsTimelineKeys=0 rig=naru_painting profile=rig-play
-  ..    pack: skeleton.png 1283x2038, 22 region(s), 86.4% covered, padding 2, page edges free, shape polygon
+  ..    pack: skeleton.png 918x1994, 22 region(s), 94.1% covered, padding 2, page edges free, shape polygon
   ..    50 assertions: 27 measured (27 passed, 0 failed), 23 skipped, 0 not in profile "rig-play"
   ..    pages=1 regions=22 bones=107 slots=22 animations=1 version=4.3.13 regionAttachments=16 meshAttachments=6 physicsConstraints=31 physicsTimelineKeys=0 rig=naru_painting profile=rig-play

@@ -22,19 +22,19 @@ OFFICE_CLOTHING = {
     "handwear_r",
     "handwear_l",
 }
-NEW_NAMES = ["shoes", "bottomwear", "neck", "topwear", "cardigan", "sleeves", "hands"]
+NEW_NAMES = ["shoes", "bottomwear", "neck", "topwear", "sleeves"]
 
 CHAR_SPECS = {
     "roa": {
-        "hem_r": {"at": [180, 960], "tip": [150, 1550]},
-        "hem_l": {"at": [555, 960], "tip": [600, 1550]},
+        "hem_r": {"at": [165, 1100], "tip": [155, 1480]},
+        "hem_l": {"at": [575, 1100], "tip": [595, 1480]},
         "neck_segments": [["chest", [365, 430], [365, 657]], ["head", [365, 394], [365, 344]]],
         "topwear_segments": [["chest", [360, 448], [360, 843]], ["hip", [360, 843], [360, 1080]]],
         "cardigan_segments": [
             ["chest", [210, 480], [200, 840]],
             ["chest", [510, 480], [530, 840]],
-            ["hip", [200, 840], [180, 960]],
-            ["hip", [530, 840], [555, 960]],
+            ["hip", [200, 840], [165, 1100]],
+            ["hip", [530, 840], [575, 1100]],
             "cardigan_hem_r",
             "cardigan_hem_l",
         ],
@@ -42,7 +42,7 @@ CHAR_SPECS = {
             ["chest", [120, 520], [120, 940]],
             ["chest", [520, 520], [720, 580]],
         ],
-        "stitch": [("neck", 448, True), ("topwear", 520, False), ("cardigan", 520, False)],
+        "stitch": [("neck", 440, True), ("topwear", 485, False)],
     },
     "luna": {
         "hem_r": {"at": [260, 940], "tip": [250, 1030]},
@@ -58,59 +58,55 @@ CHAR_SPECS = {
         "sleeves_segments": [
             ["chest", [200, 650], [520, 1180]],
         ],
-        "stitch": [("neck", 575, True), ("topwear", 645, False), ("cardigan", 645, False)],
+        "stitch": [("neck", 575, True), ("topwear", 645, False)],
     },
     "jinni": {
-        "hem_r": {"at": [260, 1180], "tip": [235, 1440]},
-        "hem_l": {"at": [595, 1180], "tip": [620, 1400]},
+        "hem_r": {"at": [335, 860], "tip": [335, 940]},
+        "hem_l": {"at": [535, 860], "tip": [540, 940]},
         "neck_segments": [["chest", [428, 545], [428, 734]], ["head", [428, 500], [428, 410]]],
-        "topwear_segments": [["chest", [440, 552], [440, 866]], ["hip", [440, 866], [440, 1020]]],
+        "topwear_segments": [["chest", [440, 552], [440, 866]], ["hip", [440, 866], [440, 935]]],
         "cardigan_segments": [
-            ["chest", [280, 580], [280, 880]],
-            ["chest", [540, 580], [550, 880]],
-            ["hip", [280, 880], [260, 1180]],
-            ["hip", [550, 880], [595, 1180]],
-            ["hip", [420, 1020], [410, 1380]],
+            ["chest", [335, 620], [335, 860]],
+            ["chest", [535, 620], [535, 860]],
             "cardigan_hem_r",
             "cardigan_hem_l",
         ],
         "sleeves_segments": [
             ["chest", [230, 640], [520, 1080]],
         ],
-        "stitch": [("neck", 555, True), ("topwear", 625, False), ("cardigan", 640, False)],
+        "stitch": [("neck", 555, True), ("topwear", 625, False)],
     },
     "naru": {
-        "hem_r": {"at": [243, 1040], "tip": [210, 1350]},
-        "hem_l": {"at": [532, 1040], "tip": [575, 1350]},
+        "hem_r": {"at": [265, 940], "tip": [210, 1200]},
+        "hem_l": {"at": [515, 940], "tip": [565, 1200]},
         "neck_segments": [["chest", [380, 650], [380, 780]], ["head", [380, 575], [380, 510]]],
-        "topwear_segments": [["chest", [380, 630], [380, 910]], ["hip", [380, 910], [380, 1040]]],
+        "topwear_segments": [["chest", [380, 630], [380, 900]], ["hip", [380, 900], [380, 960]]],
         "cardigan_segments": [
-            ["chest", [240, 640], [240, 940]],
-            ["chest", [535, 640], [535, 940]],
-            ["hip", [243, 940], [243, 1040]],
-            ["hip", [532, 940], [532, 1040]],
+            ["chest", [265, 640], [265, 940]],
+            ["chest", [515, 640], [515, 940]],
             "cardigan_hem_r",
             "cardigan_hem_l",
         ],
         "sleeves_segments": [
-            ["chest", [180, 820], [615, 1020]],
+            ["chest", [180, 800], [615, 1060]],
         ],
-        "stitch": [("neck", 625, True), ("topwear", 705, False), ("cardigan", 705, False)],
+        "stitch": [("neck", 625, True), ("topwear", 705, False)],
     },
     "nova": {
-        "hem_r": {"at": [310, 980], "tip": [280, 1180]},
-        "hem_l": {"at": [520, 980], "tip": [550, 1135]},
+        "hem_r": {"at": [335, 880], "tip": [330, 965]},
+        "hem_l": {"at": [495, 880], "tip": [505, 965]},
         "neck_segments": [["chest", [435, 550], [410, 780]], ["head", [435, 500], [435, 450]]],
-        "topwear_segments": [["chest", [380, 555], [380, 900]], ["hip", [380, 900], [380, 968]]],
+        "topwear_segments": [["chest", [380, 555], [380, 890]], ["hip", [380, 890], [380, 965]]],
         "cardigan_segments": [
-            ["chest", [510, 560], [520, 880]],
-            ["hip", [520, 880], [520, 980]],
+            ["chest", [335, 580], [335, 880]],
+            ["chest", [495, 580], [495, 880]],
+            "cardigan_hem_r",
             "cardigan_hem_l",
         ],
         "sleeves_segments": [
             ["chest", [220, 660], [640, 1150]],
         ],
-        "stitch": [("neck", 560, True), ("topwear", 625, False), ("cardigan", 625, False)],
+        "stitch": [("neck", 560, True), ("topwear", 625, False)],
     },
 }
 
@@ -169,15 +165,15 @@ def prepare_author_inputs(family: pathlib.Path, char: str, force: bool):
             "bone": f"cardigan_hem_{side}",
             "rotate": 1,
             "inertia": 0.15,
-            "strength": 240,
+            "strength": 360,
             "damping": 0.92,
             "mass": 1,
-            "wind": 0.15,
+            "wind": 0.11,
             "gravity": 0.06,
             "mix": 1,
         })
     top = json.loads(json.dumps(cfg["meshes"]["topwear"]))
-    top["segments"] = spec["topwear_segments"]
+    top["segments"] = [*spec["topwear_segments"], *spec["cardigan_segments"]]
     top["contour"]["tolerance"] = 1
     top["contour"]["margin"] = 3
     bust_override_path = home / "bust-regions.json"
@@ -195,18 +191,6 @@ def prepare_author_inputs(family: pathlib.Path, char: str, force: bool):
     cfg["meshes"] = {
         "neck": neck,
         "topwear": top,
-        "cardigan": {
-            "contour": {
-                "tolerance": 1,
-                "margin": 3,
-                "spacing": 40,
-                "maxEdge": 64,
-                "stray": 400,
-                "bridges": True,
-            },
-            "r": 12,
-            "segments": spec["cardigan_segments"],
-        },
         "sleeves": {
             "contour": {
                 "tolerance": 1,
@@ -220,10 +204,10 @@ def prepare_author_inputs(family: pathlib.Path, char: str, force: bool):
             "segments": spec["sleeves_segments"],
         },
     }
-    cfg["regions"] = {"shoes": "root", "bottomwear": "hip", "hands": "chest"}
+    cfg["regions"] = {"shoes": "root", "bottomwear": "hip"}
     cfg["note"] = (
         "Consumer authored swimwear: common bone/motion/physics definitions are preserved in final assembly; "
-        "new cover-up/pareo hems have separate physics. Source lineage is in prepared/prototype.json."
+        "new cover-up/pareo hems have separate physics on unified topwear. Source lineage is in prepared/prototype.json."
     )
     (author / "config.json").write_text(json.dumps(cfg, indent=2) + "\n")
 

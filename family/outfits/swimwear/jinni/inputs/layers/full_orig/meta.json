@@ -1,24 +1,54 @@
 {
-  "spec": "family-homewear-seethrough/1",
-  "sourceSHA256": "35b40ad96377835192a3ca23c12a62c020fd1c901248cb5433cc4f6d6ff6cfca",
-  "installedNodeSHA256": "6c7874e0d6c526e67620c4d6a98f8586a516c3b38e9683372e3ae3bbe467b169",
+  "prompt_id": "ab6a31ad-c33f-46a4-82fc-34248d633448",
+  "image": "/Users/firejune/Workspace/Firejune/parts-examples-naru-homewear/family/outfits/swimwear/jinni/inputs/seethrough-input/st_input_full.png",
+  "elapsed_s": 170.5,
+  "vram_free_before_gb": {
+    "cuda:0": 14.6,
+    "cuda:1": 10.8
+  },
+  "vram_free_low_gb": {
+    "cuda:0": 4.99,
+    "cuda:1": 10.8
+  },
+  "prefix": "swimwear_jinni_51966227",
   "seed": 42,
   "resolution": 1024,
   "steps": 30,
   "quant": "none",
-  "groupOffloadRequested": true,
-  "groupOffloadActive": false,
+  "offload": true,
   "lama": false,
-  "downloads": false,
-  "initialBF16": true,
-  "finalModelDtype": "bfloat16",
-  "behavior": "Installed model/tag version unchanged, including its internal head pass when selected by the installed node.",
-  "rawLayerCount": 24,
-  "postprocessLayerCount": 27,
+  "layer_count": 27,
+  "layer_names": [
+    "tail",
+    "wings",
+    "objects",
+    "back hair",
+    "eyewhite-r",
+    "eyewhite-l",
+    "handwear-l",
+    "legwear",
+    "footwear",
+    "eyebrow-l",
+    "neckwear",
+    "bottomwear",
+    "neck",
+    "topwear",
+    "eyebrow-r",
+    "ears-l",
+    "earwear",
+    "handwear-r",
+    "ears-r",
+    "face",
+    "mouth",
+    "nose",
+    "eyelash-r",
+    "eyelash-l",
+    "irides-r",
+    "irides-l",
+    "front hair"
+  ],
   "canvas": [
     1024,
     1024
-  ],
-  "export": "Original node postprocess arrays and equivalent SavePSD wrapper metadata, fresh consumer directory; no shared output directory mutation.",
-  "seconds": 188.06299999984913
+  ]
 }

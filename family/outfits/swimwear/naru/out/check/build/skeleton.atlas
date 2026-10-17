@@ -1,92 +1,84 @@
 skeleton.png
-size: 1157, 1285
+size: 1104, 1560
 filter: Linear, Linear
 pma: false
 bottomwear
-bounds: 2, 2, 351, 893
-offsets: 0, 0, 351, 893
+bounds: 2, 2, 477, 1164
+offsets: 0, 0, 477, 1164
 rotate: 0
 brow_l
-bounds: 619, 34, 84, 21
+bounds: 483, 122, 84, 21
 offsets: 0, 0, 84, 21
 rotate: 0
 brow_r
-bounds: 465, 218, 60, 42
+bounds: 951, 1307, 60, 42
 offsets: 0, 0, 60, 42
 rotate: 0
-cardigan
-bounds: 356, 2, 479, 746
-offsets: 0, 0, 479, 746
-rotate: 0
 ear_l
-bounds: 815, 434, 43, 71
+bounds: 550, 634, 43, 71
 offsets: 0, 0, 43, 71
 rotate: 0
 ear_r
-bounds: 764, 26, 52, 55
+bounds: 483, 1018, 52, 55
 offsets: 0, 0, 52, 55
 rotate: 0
 eyewhite_l
-bounds: 809, 509, 54, 39
+bounds: 483, 684, 54, 39
 offsets: 0, 0, 54, 39
 rotate: 0
 eyewhite_r
-bounds: 801, 714, 50, 38
+bounds: 483, 727, 50, 38
 offsets: 0, 0, 50, 38
 rotate: 0
 face
-bounds: 513, 1058, 195, 225
+bounds: 622, 378, 195, 225
 offsets: 0, 0, 195, 225
 rotate: 0
 hair_back
-bounds: 707, 6, 448, 448
+bounds: 426, 1110, 448, 448
 offsets: 0, 0, 448, 448
 rotate: 0
 hair_front
-bounds: 357, 42, 259, 339
+bounds: 843, 1131, 259, 339
 offsets: 0, 0, 259, 339
 rotate: 0
-hands
-bounds: 840, 820, 185, 154
-offsets: 0, 0, 185, 154
-rotate: 0
 iris_l
-bounds: 756, 85, 36, 34
+bounds: 847, 818, 36, 34
 offsets: 0, 0, 36, 34
 rotate: 0
 iris_r
-bounds: 838, 382, 34, 33
+bounds: 541, 709, 34, 33
 offsets: 0, 0, 34, 33
 rotate: 0
 lash_l
-bounds: 592, 59, 69, 51
+bounds: 677, 842, 69, 51
 offsets: 0, 0, 69, 51
 rotate: 0
 lash_r
-bounds: 805, 757, 64, 52
+bounds: 483, 2, 64, 52
 offsets: 0, 0, 64, 52
 rotate: 0
 mouth
-bounds: 853, 978, 50, 27
+bounds: 483, 769, 50, 27
 offsets: 0, 0, 50, 27
 rotate: 0
 neck
-bounds: 866, 977, 148, 118
-offsets: 0, 0, 148, 118
+bounds: 867, 211, 162, 164
+offsets: 0, 0, 162, 164
 rotate: 0
 nose
-bounds: 566, 34, 22, 31
+bounds: 820, 1363, 22, 31
 offsets: 0, 0, 22, 31
 rotate: 0
 shoes
-bounds: 510, 815, 184, 239
-offsets: 0, 0, 184, 239
+bounds: 914, 2, 187, 206
+offsets: 0, 0, 187, 206
 rotate: 0
 sleeves
-bounds: 356, 751, 508, 393
-offsets: 0, 0, 508, 393
+bounds: 526, 682, 510, 445
+offsets: 0, 0, 510, 445
 rotate: 0
 topwear
-bounds: 866, 389, 247, 427
-offsets: 0, 0, 247, 427
+bounds: 483, 2, 473, 678
+offsets: 0, 0, 473, 678
 rotate: 0

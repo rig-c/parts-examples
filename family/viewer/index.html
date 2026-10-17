@@ -583,7 +583,11 @@
     async function loadRigAssets(key, outfit, bust) {
       let specs = [];
       const location = outfitAssets(key, outfit);
-      const raw = await loadModel({ modelUrl: `${location.modelUrl}?v=${bust}`,
+      const raw = await loadModel({
+        modelUrl: `${location.modelUrl}?v=${bust}`,
+        resolvePage(page, modelUrl) {
+          return new URL(`${page}?v=${bust}`, new URL(modelUrl, document.baseURI)).href;
+        },
         async fetch(...args) {
           const response = await fetch(...args);
           if (response.ok) specs = (await response.clone().json()).bones;

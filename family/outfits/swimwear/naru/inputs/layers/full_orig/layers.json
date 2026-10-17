@@ -1,231 +1,266 @@
 {
-  "prefix": "homewear_naru",
-  "timestamp": "seed42",
+  "prefix": "swimwear_naru_db2c1f6d",
+  "timestamp": "20261018_044003_53b2d7f0",
   "layers": [
     {
       "name": "neckwear",
-      "filename": "neckwear.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_neckwear.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
-    },
-    {
-      "name": "bottomwear",
-      "filename": "bottomwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_neckwear_depth.png"
     },
     {
       "name": "footwear",
-      "filename": "footwear.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_footwear.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_footwear_depth.png"
     },
     {
       "name": "tail",
-      "filename": "tail.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_tail.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_tail_depth.png"
     },
     {
       "name": "wings",
-      "filename": "wings.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_wings.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_wings_depth.png"
     },
     {
       "name": "objects",
-      "filename": "objects.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_objects.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_objects_depth.png"
     },
     {
       "name": "handwear-r",
-      "filename": "handwear-r.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_handwear-r.png",
       "left": 0,
-      "top": 1013,
+      "top": 1015,
       "right": 1,
       "bottom": 1022,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_handwear-r_depth.png"
     },
     {
       "name": "back hair",
-      "filename": "back hair.png",
-      "left": 427,
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_back hair.png",
+      "left": 424,
       "top": 1,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.93359375
-    },
-    {
-      "name": "neck",
-      "filename": "neck.png",
-      "left": 492,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.8125
+      "depth_median": 0.921875,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_back hair_depth.png"
     },
     {
       "name": "legwear",
-      "filename": "legwear.png",
-      "left": 0,
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_legwear.png",
+      "left": 429,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.7890625
-    },
-    {
-      "name": "topwear",
-      "filename": "topwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.71875
-    },
-    {
-      "name": "eyewhite-r",
-      "filename": "eyewhite-r.png",
-      "left": 465,
-      "top": 224,
-      "right": 485,
-      "bottom": 240,
-      "depth_median": 0.69140625
-    },
-    {
-      "name": "eyewhite-l",
-      "filename": "eyewhite-l.png",
-      "left": 504,
-      "top": 212,
-      "right": 527,
-      "bottom": 231,
-      "depth_median": 0.69140625
-    },
-    {
-      "name": "handwear-l",
-      "filename": "handwear-l.png",
-      "left": 395,
-      "top": 293,
-      "right": 625,
-      "bottom": 472,
-      "depth_median": 0.6640625
+      "depth_median": 0.8203125,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_legwear_depth.png"
     },
     {
       "name": "eyebrow-l",
-      "filename": "eyebrow-l.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyebrow-l.png",
       "left": 496,
-      "top": 205,
+      "top": 206,
       "right": 526,
       "bottom": 214,
-      "depth_median": 0.66015625
+      "depth_median": 0.810546875,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyebrow-l_depth.png"
     },
     {
-      "name": "eyebrow-r",
-      "filename": "eyebrow-r.png",
-      "left": 459,
-      "top": 211,
-      "right": 482,
-      "bottom": 227,
-      "depth_median": 0.595703125
-    },
-    {
-      "name": "face",
-      "filename": "face.png",
-      "left": 454,
-      "top": 160,
-      "right": 535,
-      "bottom": 269,
-      "depth_median": 0.5703125
-    },
-    {
-      "name": "mouth",
-      "filename": "mouth.png",
-      "left": 486,
-      "top": 245,
-      "right": 516,
-      "bottom": 263,
-      "depth_median": 0.5693125
-    },
-    {
-      "name": "ears-r",
-      "filename": "ears-r.png",
-      "left": 459,
-      "top": 216,
-      "right": 475,
-      "bottom": 241,
-      "depth_median": 0.515625
-    },
-    {
-      "name": "ears-l",
-      "filename": "ears-l.png",
-      "left": 534,
-      "top": 204,
-      "right": 548,
-      "bottom": 230,
-      "depth_median": 0.4921875
-    },
-    {
-      "name": "eyelash-l",
-      "filename": "eyelash-l.png",
-      "left": 503,
-      "top": 208,
-      "right": 528,
-      "bottom": 232,
-      "depth_median": 0.30078125
-    },
-    {
-      "name": "eyelash-r",
-      "filename": "eyelash-r.png",
-      "left": 462,
-      "top": 222,
-      "right": 486,
-      "bottom": 240,
-      "depth_median": 0.2509765625
-    },
-    {
-      "name": "front hair",
-      "filename": "front hair.png",
-      "left": 445,
+      "name": "neck",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_neck.png",
+      "left": 491,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.24609375
+      "depth_median": 0.7734375,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_neck_depth.png"
+    },
+    {
+      "name": "bottomwear",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_bottomwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.70703125,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_bottomwear_depth.png"
+    },
+    {
+      "name": "topwear",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_topwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.69921875,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_topwear_depth.png"
+    },
+    {
+      "name": "handwear-l",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_handwear-l.png",
+      "left": 398,
+      "top": 293,
+      "right": 623,
+      "bottom": 489,
+      "depth_median": 0.6796875,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_handwear-l_depth.png"
+    },
+    {
+      "name": "eyebrow-r",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyebrow-r.png",
+      "left": 459,
+      "top": 215,
+      "right": 480,
+      "bottom": 227,
+      "depth_median": 0.6796875,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyebrow-r_depth.png"
+    },
+    {
+      "name": "face",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_face.png",
+      "left": 456,
+      "top": 168,
+      "right": 534,
+      "bottom": 270,
+      "depth_median": 0.4765625,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_face_depth.png"
+    },
+    {
+      "name": "nose",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_nose.png",
+      "left": 490,
+      "top": 234,
+      "right": 502,
+      "bottom": 248,
+      "depth_median": 0.4755625,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_nose_depth.png"
+    },
+    {
+      "name": "mouth",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_mouth.png",
+      "left": 486,
+      "top": 243,
+      "right": 518,
+      "bottom": 263,
+      "depth_median": 0.4755625,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_mouth_depth.png"
+    },
+    {
+      "name": "ears-r",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_ears-r.png",
+      "left": 456,
+      "top": 221,
+      "right": 474,
+      "bottom": 245,
+      "depth_median": 0.474609375,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_ears-r_depth.png"
+    },
+    {
+      "name": "ears-l",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_ears-l.png",
+      "left": 532,
+      "top": 208,
+      "right": 546,
+      "bottom": 235,
+      "depth_median": 0.453125,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_ears-l_depth.png"
+    },
+    {
+      "name": "eyewhite-r",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyewhite-r.png",
+      "left": 466,
+      "top": 227,
+      "right": 484,
+      "bottom": 241,
+      "depth_median": 0.42578125,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyewhite-r_depth.png"
+    },
+    {
+      "name": "eyewhite-l",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyewhite-l.png",
+      "left": 504,
+      "top": 216,
+      "right": 526,
+      "bottom": 232,
+      "depth_median": 0.42578125,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyewhite-l_depth.png"
+    },
+    {
+      "name": "eyelash-r",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyelash-r.png",
+      "left": 463,
+      "top": 224,
+      "right": 486,
+      "bottom": 241,
+      "depth_median": 0.2607421875,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyelash-r_depth.png"
+    },
+    {
+      "name": "eyelash-l",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyelash-l.png",
+      "left": 503,
+      "top": 210,
+      "right": 528,
+      "bottom": 231,
+      "depth_median": 0.2578125,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_eyelash-l_depth.png"
     },
     {
       "name": "irides-r",
-      "filename": "irides-r.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_irides-r.png",
       "left": 470,
-      "top": 223,
+      "top": 225,
       "right": 484,
-      "bottom": 240,
-      "depth_median": 0.15625
+      "bottom": 241,
+      "depth_median": 0.197265625,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_irides-r_depth.png"
     },
     {
       "name": "irides-l",
-      "filename": "irides-l.png",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_irides-l.png",
       "left": 506,
-      "top": 213,
-      "right": 523,
+      "top": 216,
+      "right": 522,
       "bottom": 231,
-      "depth_median": 0.15625
+      "depth_median": 0.197265625,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_irides-l_depth.png"
+    },
+    {
+      "name": "front hair",
+      "filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_front hair.png",
+      "left": 443,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.171875,
+      "depth_filename": "swimwear_naru_db2c1f6d_20261018_044003_53b2d7f0_front hair_depth.png"
     }
   ],
   "width": 1024,

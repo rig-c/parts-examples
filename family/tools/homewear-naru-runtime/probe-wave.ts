@@ -194,7 +194,7 @@ function probeCharacter(char: string) {
       commonAttachmentMaxDelta === 0 &&
       bustBoneMaxDelta === 0 &&
       Object.values(response).every(r => r.foldingTriangleReadings === 0) &&
-      response.hands.windOrDragOnlyMax === 0 &&
+      (!response.hands || response.hands.windOrDragOnlyMax === 0) &&
       response.sleeves.windOrDragOnlyMax === 0 &&
       response.bottomwear.windOrDragOnlyMax === 0;
     cases.push({ scenario, nativeCoreMaxDelta: 0, commonBoneMaxDelta, commonAttachmentMaxDelta, bustBoneMaxDelta, response, PASS });

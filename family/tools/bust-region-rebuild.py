@@ -96,27 +96,36 @@ def rebuild_single_outfit_topwear(
     top_part_rec = next(p for p in parts_doc["parts"] if p["name"] == "topwear")
     top_png_path = out_dir / "parts/topwear.png"
 
+    cfg_init = json.loads(cfg_path.read_text())
+    has_cardigan = "cardigan" in cfg_init.get("meshes", {}) and any(
+        p["name"] == "cardigan" for p in parts_doc["parts"]
+    )
+    target_parts = ["topwear", "cardigan"] if has_cardigan else ["topwear"]
+
     with tempfile.TemporaryDirectory(prefix=f"bust-{char}-{outfit}-") as tmp:
         tmp_dir = pathlib.Path(tmp)
         inputs_dir = tmp_dir / "inputs"
         (inputs_dir / "parts").mkdir(parents=True)
-        shutil.copy2(top_png_path, inputs_dir / "parts/topwear.png")
-        clean_part_rec = {
-            **{k: top_part_rec[k] for k in ("name", "x", "y", "w", "h", "opaque_px")},
-            "from": "full:author:topwear",
-            "projected_core_px": 0,
-            "source_px_taken": 0,
-            "refused_drift_px": 0,
-            "merged_px": 0,
-            "seam_override_px": 0,
-        }
+        clean_part_recs = []
+        for pname in target_parts:
+            prec = next(p for p in parts_doc["parts"] if p["name"] == pname)
+            shutil.copy2(out_dir / f"parts/{pname}.png", inputs_dir / f"parts/{pname}.png")
+            clean_part_recs.append({
+                **{k: prec[k] for k in ("name", "x", "y", "w", "h", "opaque_px")},
+                "from": f"full:author:{pname}",
+                "projected_core_px": 0,
+                "source_px_taken": 0,
+                "refused_drift_px": 0,
+                "merged_px": 0,
+                "seam_override_px": 0,
+            })
         (inputs_dir / "parts.json").write_text(
             json.dumps(
                 {
                     "rig_size": [800, 2284],
                     "scale_rig_per_source": 1,
                     "ghost_px": {},
-                    "parts": [clean_part_rec],
+                    "parts": clean_part_recs,
                 },
                 indent=2,
             )
@@ -133,16 +142,20 @@ def rebuild_single_outfit_topwear(
                     reg.update(cur_r)
                 elif reg["name"] == "bust_l":
                     reg.update(cur_l)
+            if has_cardigan:
+                cfg["meshes"]["cardigan"]["contour"]["regions"] = json.loads(
+                    json.dumps(cfg["meshes"]["topwear"]["contour"].get("regions", []))
+                )
             cfg_path.write_text(json.dumps(cfg, indent=2) + "\n")
 
             mini_cfg = json.loads(json.dumps(cfg))
             mini_cfg.pop("seethrough", None)
             mini_cfg["assemble"] = {
                 "rig_scale": 1,
-                "plan": [["topwear", "full", "author:topwear"]],
+                "plan": [[pname, "full", f"author:{pname}"] for pname in target_parts],
             }
             mini_cfg["motion"].pop("blink", None)
-            mini_cfg["meshes"] = {"topwear": mini_cfg["meshes"]["topwear"]}
+            mini_cfg["meshes"] = {pname: mini_cfg["meshes"][pname] for pname in target_parts}
             mini_cfg["regions"] = {}
             mini_cfg_path = tmp_dir / "config.json"
             mini_cfg_path.write_text(json.dumps(mini_cfg, indent=2) + "\n")
@@ -183,32 +196,35 @@ def rebuild_single_outfit_topwear(
 
         new_rig = json.loads((rig_out / "rig.json").read_text())
         new_reports = json.loads((rig_out / "mesh_report.json").read_text())
-        new_top_rep = next((r for r in new_reports if r.get("part") == "topwear"), None)
+        new_rep_by_part = {r.get("part"): r for r in new_reports if r.get("part") in target_parts}
 
         for rep_path in [
             out_dir / "rig/mesh_report.json",
             (family / "outfits" / outfit / char / "authoring/rig/mesh_report.json") if outfit != "office" else None,
         ]:
-            if rep_path and rep_path.is_file() and new_top_rep:
+            if rep_path and rep_path.is_file() and new_rep_by_part:
                 reps = json.loads(rep_path.read_text())
-                reps = [new_top_rep if r.get("part") == "topwear" else r for r in reps]
+                reps = [new_rep_by_part.get(r.get("part"), r) for r in reps]
                 rep_path.write_text(json.dumps(reps, indent=2) + "\n")
 
         target_rig_path = out_dir / "rig/rig.json"
         rig = json.loads(target_rig_path.read_text())
-        rig["skins"]["default"]["topwear"] = new_rig["skins"]["default"]["topwear"]
-        for attachment in rig["skins"]["default"]["topwear"].values():
-            shutil.copy2(rig_out / "images" / attachment["image"], out_dir / "rig/images" / attachment["image"])
+        for pname in target_parts:
+            rig["skins"]["default"][pname] = new_rig["skins"]["default"][pname]
+            for attachment in rig["skins"]["default"][pname].values():
+                shutil.copy2(rig_out / "images" / attachment["image"], out_dir / "rig/images" / attachment["image"])
 
         if outfit in TOPWEAR_STITCH_THRESHOLD:
             threshold = TOPWEAR_STITCH_THRESHOLD[outfit][char]
-            attachment = rig["skins"]["default"]["topwear"]["topwear"]
-            for i, weights in enumerate(attachment["weights"]):
-                source_y = top_part_rec["y"] - 4 + attachment["uvs"][2 * i + 1] * attachment["height"]
-                if source_y <= threshold:
-                    chest = next((w for w in weights if w["bone"] == "chest"), None)
-                    if chest is not None:
-                        attachment["weights"][i] = [{**chest, "weight": 1}]
+            for pname in target_parts:
+                prec = next(p for p in parts_doc["parts"] if p["name"] == pname)
+                attachment = rig["skins"]["default"][pname][pname]
+                for i, weights in enumerate(attachment["weights"]):
+                    source_y = prec["y"] - 4 + attachment["uvs"][2 * i + 1] * attachment["height"]
+                    if source_y <= threshold:
+                        chest = next((w for w in weights if w["bone"] == "chest"), None)
+                        if chest is not None:
+                            attachment["weights"][i] = [{**chest, "weight": 1}]
 
         target_rig_text = json.dumps(rig, indent=2) + "\n"
         target_rig_path.write_text(target_rig_text)

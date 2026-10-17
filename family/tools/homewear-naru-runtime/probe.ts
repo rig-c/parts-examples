@@ -75,7 +75,7 @@ for(const scenario of ['calm','wind4','gust','drag','burst48','burst96'] as Scen
    }
   }
  }
- const PASS=commonBoneMaxDelta===0&&commonAttachmentMaxDelta===0&&bustBoneMaxDelta===0&&Object.values(response).every(r=>r.foldingTriangleReadings===0)&&response.hands.windOrDragOnlyMax===0&&response.sleeves.windOrDragOnlyMax===0&&response.bottomwear.windOrDragOnlyMax===0;
+ const PASS=commonBoneMaxDelta===0&&commonAttachmentMaxDelta===0&&bustBoneMaxDelta===0&&Object.values(response).every(r=>r.foldingTriangleReadings===0)&&(!response.hands||response.hands.windOrDragOnlyMax===0)&&response.sleeves.windOrDragOnlyMax===0&&response.bottomwear.windOrDragOnlyMax===0;
  cases.push({scenario,nativeCoreMaxDelta:0,commonBoneMaxDelta,commonAttachmentMaxDelta,bustBoneMaxDelta,response,PASS});
  console.log(JSON.stringify(cases[cases.length-1]));
 }

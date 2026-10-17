@@ -24,19 +24,9 @@
         "author:homewear-topwear"
       ],
       [
-        "cardigan",
-        "full",
-        "author:homewear-cardigan"
-      ],
-      [
         "sleeves",
         "full",
         "author:homewear-sleeves"
-      ],
-      [
-        "hands",
-        "full",
-        "author:homewear-hands"
       ]
     ]
   },
@@ -313,7 +303,7 @@
         960
       ],
       "tip": [
-        200,
+        195,
         1340
       ]
     },
@@ -321,11 +311,11 @@
       "name": "cardigan_hem_l",
       "parent": "hip",
       "at": [
-        545,
+        555,
         960
       ],
       "tip": [
-        565,
+        590,
         1340
       ]
     }
@@ -418,20 +408,7 @@
             360,
             946
           ]
-        ]
-      ]
-    },
-    "cardigan": {
-      "contour": {
-        "tolerance": 1,
-        "margin": 3,
-        "spacing": 40,
-        "maxEdge": 64,
-        "stray": 400,
-        "bridges": true
-      },
-      "r": 12,
-      "segments": [
+        ],
         [
           "chest",
           [
@@ -472,7 +449,7 @@
             840
           ],
           [
-            545,
+            555,
             960
           ]
         ],
@@ -518,8 +495,7 @@
   },
   "regions": {
     "shoes": "root",
-    "bottomwear": "hip",
-    "hands": "chest"
+    "bottomwear": "hip"
   },
   "motion": {
     "duration": 3.3333333333333335,
@@ -668,7 +644,7 @@
       "bone": "hairback_r0",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 260.0,
+      "strength": 260,
       "damping": 0.92,
       "mass": 1,
       "wind": 0.96,
@@ -681,7 +657,7 @@
       "bone": "hairback_r1",
       "rotate": 1,
       "inertia": 0.4,
-      "strength": 200.0,
+      "strength": 200,
       "damping": 0.9,
       "mass": 1,
       "wind": 2.4,
@@ -694,7 +670,7 @@
       "bone": "hairback_r2",
       "rotate": 1,
       "inertia": 0.5,
-      "strength": 160.0,
+      "strength": 160,
       "damping": 0.88,
       "mass": 1,
       "wind": 4.32,
@@ -707,7 +683,7 @@
       "bone": "hairback_l0",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 260.0,
+      "strength": 260,
       "damping": 0.92,
       "mass": 1,
       "wind": 0.96,
@@ -720,7 +696,7 @@
       "bone": "hairback_l1",
       "rotate": 1,
       "inertia": 0.4,
-      "strength": 200.0,
+      "strength": 200,
       "damping": 0.9,
       "mass": 1,
       "wind": 2.4,
@@ -733,7 +709,7 @@
       "bone": "hairback_l2",
       "rotate": 1,
       "inertia": 0.5,
-      "strength": 160.0,
+      "strength": 160,
       "damping": 0.88,
       "mass": 1,
       "wind": 4.32,
@@ -746,7 +722,7 @@
       "bone": "bang_r0",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 240.0,
+      "strength": 240,
       "damping": 0.9,
       "mass": 1,
       "wind": 2.925,
@@ -759,7 +735,7 @@
       "bone": "bang_r1",
       "rotate": 1,
       "inertia": 0.35,
-      "strength": 180.0,
+      "strength": 180,
       "damping": 0.88,
       "mass": 1,
       "wind": 6.825,
@@ -772,7 +748,7 @@
       "bone": "bang_c0",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 240.0,
+      "strength": 240,
       "damping": 0.9,
       "mass": 1,
       "wind": 2.925,
@@ -785,7 +761,7 @@
       "bone": "bang_c1",
       "rotate": 1,
       "inertia": 0.35,
-      "strength": 180.0,
+      "strength": 180,
       "damping": 0.88,
       "mass": 1,
       "wind": 6.825,
@@ -798,7 +774,7 @@
       "bone": "bang_l0",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 240.0,
+      "strength": 240,
       "damping": 0.9,
       "mass": 1,
       "wind": 2.925,
@@ -811,7 +787,7 @@
       "bone": "bang_l1",
       "rotate": 1,
       "inertia": 0.35,
-      "strength": 180.0,
+      "strength": 180,
       "damping": 0.88,
       "mass": 1,
       "wind": 6.825,
@@ -824,7 +800,7 @@
       "bone": "skirt_r0",
       "rotate": 1,
       "inertia": 0.2,
-      "strength": 280.0,
+      "strength": 280,
       "damping": 0.92,
       "mass": 1,
       "wind": 0.32,
@@ -837,7 +813,7 @@
       "bone": "skirt_r1",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 240.0,
+      "strength": 240,
       "damping": 0.9,
       "mass": 1,
       "wind": 0.6,
@@ -850,10 +826,10 @@
       "bone": "skirt_r2",
       "rotate": 1,
       "inertia": 0.3,
-      "strength": 200.0,
+      "strength": 200,
       "damping": 0.88,
       "mass": 1,
-      "wind": 1.0,
+      "wind": 1,
       "gravity": 0.2,
       "mix": 1
     },
@@ -863,7 +839,7 @@
       "bone": "skirt_c0",
       "rotate": 1,
       "inertia": 0.2,
-      "strength": 280.0,
+      "strength": 280,
       "damping": 0.92,
       "mass": 1,
       "wind": 0.32,
@@ -876,7 +852,7 @@
       "bone": "skirt_c1",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 240.0,
+      "strength": 240,
       "damping": 0.9,
       "mass": 1,
       "wind": 0.6,
@@ -889,10 +865,10 @@
       "bone": "skirt_c2",
       "rotate": 1,
       "inertia": 0.3,
-      "strength": 200.0,
+      "strength": 200,
       "damping": 0.88,
       "mass": 1,
-      "wind": 1.0,
+      "wind": 1,
       "gravity": 0.2,
       "mix": 1
     },
@@ -902,7 +878,7 @@
       "bone": "skirt_l0",
       "rotate": 1,
       "inertia": 0.2,
-      "strength": 280.0,
+      "strength": 280,
       "damping": 0.92,
       "mass": 1,
       "wind": 0.32,
@@ -915,7 +891,7 @@
       "bone": "skirt_l1",
       "rotate": 1,
       "inertia": 0.25,
-      "strength": 240.0,
+      "strength": 240,
       "damping": 0.9,
       "mass": 1,
       "wind": 0.6,
@@ -928,10 +904,10 @@
       "bone": "skirt_l2",
       "rotate": 1,
       "inertia": 0.3,
-      "strength": 200.0,
+      "strength": 200,
       "damping": 0.88,
       "mass": 1,
-      "wind": 1.0,
+      "wind": 1,
       "gravity": 0.2,
       "mix": 1
     },
@@ -940,28 +916,28 @@
       "name": "boob_r_phys",
       "bone": "boob_r",
       "x": 0.35,
-      "y": 1.0,
+      "y": 1,
       "inertia": 0.6075,
-      "strength": 285.0,
+      "strength": 285,
       "damping": 0.89,
       "mass": 1.35,
       "wind": 0.24,
       "gravity": 0.14,
-      "mix": 1.0
+      "mix": 1
     },
     {
       "type": "physics",
       "name": "boob_l_phys",
       "bone": "boob_l",
       "x": 0.38,
-      "y": 1.0,
+      "y": 1,
       "inertia": 0.6345,
-      "strength": 278.0,
+      "strength": 278,
       "damping": 0.89,
       "mass": 1.38,
       "wind": 0.26,
       "gravity": 0.14,
-      "mix": 1.0
+      "mix": 1
     },
     {
       "type": "physics",
@@ -969,10 +945,10 @@
       "bone": "cardigan_hem_r",
       "rotate": 1,
       "inertia": 0.15,
-      "strength": 240,
+      "strength": 360,
       "damping": 0.92,
       "mass": 1,
-      "wind": 0.15,
+      "wind": 0.11,
       "gravity": 0.06,
       "mix": 1
     },
@@ -982,10 +958,10 @@
       "bone": "cardigan_hem_l",
       "rotate": 1,
       "inertia": 0.15,
-      "strength": 240,
+      "strength": 360,
       "damping": 0.92,
       "mass": 1,
-      "wind": 0.15,
+      "wind": 0.11,
       "gravity": 0.06,
       "mix": 1
     }
@@ -1048,5 +1024,5 @@
       }
     }
   ],
-  "note": "Consumer authored homewear: common bone/motion/physics definitions are preserved in final assembly; new cardigan hems have separate physics. Source lineage is in prepared/prototype.json."
+  "note": "Consumer authored homewear: common bone/motion/physics definitions are preserved in final assembly; new cardigan hems have separate physics on unified topwear. Source lineage is in prepared/prototype.json."
 }

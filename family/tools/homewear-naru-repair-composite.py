@@ -49,7 +49,7 @@ for name, row in records.items():
     a = np.zeros((2284, 800, 4), dtype=np.uint8)
     a[row["y"]:row["y"] + row["h"], row["x"]:row["x"] + row["w"]] = np.array(Image.open(before / "parts" / (name + ".png")).convert("RGBA"))
     pieces[name] = a
-order = ["shoes", "bottomwear", "neck", "topwear", "cardigan", "sleeves", "hands"]
+order = [r["name"] for r in meta["parts"]]
 owner = np.full(mask.shape, -1, dtype=np.int16)
 for i, name in enumerate(order):
     owner[pieces[name][:, :, 3] > 0] = i

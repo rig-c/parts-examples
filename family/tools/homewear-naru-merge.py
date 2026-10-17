@@ -18,7 +18,7 @@ if out.exists():
 rig = json.loads((baseline / "rig/rig.json").read_text())
 new = json.loads((authored / "rig.json").read_text())
 common = [s["name"] for s in rig["slots"] if s["name"] not in ["shoes", "legwear", "bottomwear", "neck", "topwear"]]
-new_names = ["shoes", "bottomwear", "neck", "topwear", "cardigan", "sleeves", "hands"]
+new_names = ["shoes", "bottomwear", "neck", "topwear", "sleeves"]
 used = {"root", "hip", "chest", "chest_ctl", "neck", "head", "head_ctl", "boob_r", "boob_l"}
 old_bones = {b["name"]: b for b in rig["bones"]}
 new_bones = {b["name"]: b for b in new["bones"]}

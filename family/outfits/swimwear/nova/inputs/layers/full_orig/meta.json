@@ -1,24 +1,53 @@
 {
-  "spec": "family-homewear-seethrough/1",
-  "sourceSHA256": "7f818525cb6d4643bc27571b88ad57edc2e34b5d8363600a356ff0f62c95e83b",
-  "installedNodeSHA256": "6c7874e0d6c526e67620c4d6a98f8586a516c3b38e9683372e3ae3bbe467b169",
+  "prompt_id": "276c568c-f0de-4426-91e9-42c468ec8115",
+  "image": "/Users/firejune/Workspace/Firejune/parts-examples-naru-homewear/family/outfits/swimwear/nova/inputs/seethrough-input/st_input_full.png",
+  "elapsed_s": 167.6,
+  "vram_free_before_gb": {
+    "cuda:0": 14.6,
+    "cuda:1": 10.8
+  },
+  "vram_free_low_gb": {
+    "cuda:0": 5.41,
+    "cuda:1": 10.8
+  },
+  "prefix": "swimwear_nova_4178bfb4",
   "seed": 42,
   "resolution": 1024,
   "steps": 30,
   "quant": "none",
-  "groupOffloadRequested": true,
-  "groupOffloadActive": false,
+  "offload": true,
   "lama": false,
-  "downloads": false,
-  "initialBF16": true,
-  "finalModelDtype": "bfloat16",
-  "behavior": "Installed model/tag version unchanged, including its internal head pass when selected by the installed node.",
-  "rawLayerCount": 24,
-  "postprocessLayerCount": 26,
+  "layer_count": 26,
+  "layer_names": [
+    "neckwear",
+    "tail",
+    "wings",
+    "objects",
+    "handwear-l",
+    "back hair",
+    "eyewhite-r",
+    "eyewhite-l",
+    "handwear-r",
+    "legwear",
+    "footwear",
+    "neck",
+    "bottomwear",
+    "topwear",
+    "eyebrow-l",
+    "eyebrow-r",
+    "ears-r",
+    "face",
+    "nose",
+    "mouth",
+    "eyelash-r",
+    "eyelash-l",
+    "irides-r",
+    "irides-l",
+    "front hair",
+    "ears-l"
+  ],
   "canvas": [
     1024,
     1024
-  ],
-  "export": "Original node postprocess arrays and equivalent SavePSD wrapper metadata, fresh consumer directory; no shared output directory mutation.",
-  "seconds": 181.90599999995902
+  ]
 }

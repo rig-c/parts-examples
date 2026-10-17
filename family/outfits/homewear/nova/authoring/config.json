@@ -24,19 +24,9 @@
         "author:homewear-topwear"
       ],
       [
-        "cardigan",
-        "full",
-        "author:homewear-cardigan"
-      ],
-      [
         "sleeves",
         "full",
         "author:homewear-sleeves"
-      ],
-      [
-        "hands",
-        "full",
-        "author:homewear-hands"
       ]
     ]
   },
@@ -325,12 +315,12 @@
       "name": "cardigan_hem_r",
       "parent": "hip",
       "at": [
-        310,
+        225,
         1020
       ],
       "tip": [
-        300,
-        1250
+        220,
+        1350
       ]
     },
     {
@@ -434,29 +424,16 @@
             380,
             975
           ]
-        ]
-      ]
-    },
-    "cardigan": {
-      "contour": {
-        "tolerance": 1,
-        "margin": 3,
-        "spacing": 40,
-        "maxEdge": 64,
-        "stray": 400,
-        "bridges": true
-      },
-      "r": 12,
-      "segments": [
+        ],
         [
           "chest",
           [
-            320,
-            560
+            250,
+            580
           ],
           [
-            300,
-            690
+            235,
+            920
           ]
         ],
         [
@@ -473,6 +450,17 @@
         [
           "hip",
           [
+            235,
+            920
+          ],
+          [
+            225,
+            1020
+          ]
+        ],
+        [
+          "hip",
+          [
             530,
             920
           ],
@@ -481,6 +469,7 @@
             1020
           ]
         ],
+        "cardigan_hem_r",
         "cardigan_hem_l"
       ]
     },
@@ -511,8 +500,7 @@
   },
   "regions": {
     "shoes": "root",
-    "bottomwear": "hip",
-    "hands": "chest"
+    "bottomwear": "hip"
   },
   "motion": {
     "duration": 3.3333333333333335,
@@ -934,10 +922,10 @@
       "bone": "cardigan_hem_r",
       "rotate": 1,
       "inertia": 0.15,
-      "strength": 240,
+      "strength": 360,
       "damping": 0.92,
       "mass": 1,
-      "wind": 0.15,
+      "wind": 0.11,
       "gravity": 0.06,
       "mix": 1
     },
@@ -947,10 +935,10 @@
       "bone": "cardigan_hem_l",
       "rotate": 1,
       "inertia": 0.15,
-      "strength": 240,
+      "strength": 360,
       "damping": 0.92,
       "mass": 1,
-      "wind": 0.15,
+      "wind": 0.11,
       "gravity": 0.06,
       "mix": 1
     }
@@ -1027,5 +1015,5 @@
       }
     }
   ],
-  "note": "Consumer authored homewear: common bone/motion/physics definitions are preserved in final assembly; new cardigan hems have separate physics. Source lineage is in prepared/prototype.json."
+  "note": "Consumer authored homewear: common bone/motion/physics definitions are preserved in final assembly; new cardigan hems have separate physics on unified topwear. Source lineage is in prepared/prototype.json."
 }

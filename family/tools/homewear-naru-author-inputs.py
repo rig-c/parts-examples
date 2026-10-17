@@ -42,20 +42,36 @@ for side in ["r", "l"]:
         "bone": "cardigan_hem_" + side, "rotate": 1, "inertia": .15,
         "strength": 240, "damping": .92, "mass": 1, "wind": .15,
         "gravity": .06, "mix": 1})
-top = cfg["meshes"]["topwear"]
-neck = cfg["meshes"]["neck"]
-cfg["meshes"] = {"neck": neck, "topwear": top,
-    "cardigan": {"contour": {"tolerance": 2, "margin": 2, "spacing": 40,
-        "maxEdge": 64, "stray": 400, "bridges": True}, "r": 12,
-        "segments": [["chest", [240, 640], [240, 950]],
-                     ["chest", [535, 640], [535, 950]],
-                     ["hip", [245, 940], [245, 1080]],
-                     ["hip", [532, 940], [532, 1080]],
-                     "cardigan_hem_r", "cardigan_hem_l"]},
-    "sleeves": {"contour": {"tolerance": 2, "margin": 2, "spacing": 32,
-        "maxEdge": 54, "stray": 400, "bridges": True}, "r": 12,
-        "segments": [["chest", [180, 820], [615, 1020]]]}}
-cfg["regions"] = {"shoes": "root", "bottomwear": "hip", "hands": "chest"}
-cfg["note"] = "Consumer authored homewear: common bone/motion/physics definitions are preserved in final assembly; new cardigan hems have separate physics. Source lineage is in prepared/prototype.json. Legacy assembly counters are zero because no public assemble stage changed these custom authored inputs."
+top = json.loads(json.dumps(cfg["meshes"]["topwear"]))
+top["contour"]["tolerance"] = 1
+top["contour"]["margin"] = 3
+top["segments"] = [
+    *top.get("segments", []),
+    ["chest", [240, 640], [240, 950]],
+    ["chest", [535, 640], [535, 950]],
+    ["hip", [245, 940], [245, 1080]],
+    ["hip", [532, 940], [532, 1080]],
+    "cardigan_hem_r",
+    "cardigan_hem_l",
+]
+neck = json.loads(json.dumps(cfg["meshes"]["neck"]))
+cfg["meshes"] = {
+    "neck": neck,
+    "topwear": top,
+    "sleeves": {
+        "contour": {
+            "tolerance": 1,
+            "margin": 3,
+            "spacing": 32,
+            "maxEdge": 54,
+            "stray": 400,
+            "bridges": True,
+        },
+        "r": 12,
+        "segments": [["chest", [180, 820], [615, 1020]]],
+    },
+}
+cfg["regions"] = {"shoes": "root", "bottomwear": "hip"}
+cfg["note"] = "Consumer authored homewear: common bone/motion/physics definitions are preserved in final assembly; new cardigan hems have separate physics on unified topwear. Source lineage is in prepared/prototype.json."
 (author / "config.json").write_text(json.dumps(cfg, indent=2) + "\n")
 print(json.dumps({"status": "AUTHOR_INPUTS_READY", "parts": len(records)}))

@@ -1,249 +1,276 @@
 {
-  "prefix": "homewear_jinni",
-  "timestamp": "seed42",
+  "prefix": "swimwear_jinni_51966227",
+  "timestamp": "20261018_043710_4a66eba0",
   "layers": [
     {
-      "name": "neckwear",
-      "filename": "neckwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 1.0
-    },
-    {
       "name": "tail",
-      "filename": "tail.png",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_tail.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_tail_depth.png"
     },
     {
       "name": "wings",
-      "filename": "wings.png",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_wings.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_wings_depth.png"
     },
     {
       "name": "objects",
-      "filename": "objects.png",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_objects.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
-    },
-    {
-      "name": "eyewhite-r",
-      "filename": "eyewhite-r.png",
-      "left": 492,
-      "top": 182,
-      "right": 513,
-      "bottom": 197,
-      "depth_median": 0.94921875
-    },
-    {
-      "name": "eyewhite-l",
-      "filename": "eyewhite-l.png",
-      "left": 532,
-      "top": 197,
-      "right": 554,
-      "bottom": 209,
-      "depth_median": 0.94921875
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_objects_depth.png"
     },
     {
       "name": "back hair",
-      "filename": "back hair.png",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_back hair.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.94140625
+      "depth_median": 0.9609375,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_back hair_depth.png"
     },
     {
-      "name": "eyebrow-l",
-      "filename": "eyebrow-l.png",
-      "left": 539,
-      "top": 188,
-      "right": 557,
-      "bottom": 196,
-      "depth_median": 0.89453125
+      "name": "eyewhite-r",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyewhite-r.png",
+      "left": 492,
+      "top": 182,
+      "right": 514,
+      "bottom": 197,
+      "depth_median": 0.9375,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyewhite-r_depth.png"
     },
     {
-      "name": "legwear",
-      "filename": "legwear.png",
-      "left": 407,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.8125
-    },
-    {
-      "name": "topwear",
-      "filename": "topwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.8046875
-    },
-    {
-      "name": "footwear",
-      "filename": "footwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.80078125
-    },
-    {
-      "name": "neck",
-      "filename": "neck.png",
-      "left": 476,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.78515625
-    },
-    {
-      "name": "bottomwear",
-      "filename": "bottomwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.78125
+      "name": "eyewhite-l",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyewhite-l.png",
+      "left": 531,
+      "top": 196,
+      "right": 552,
+      "bottom": 209,
+      "depth_median": 0.9375,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyewhite-l_depth.png"
     },
     {
       "name": "handwear-l",
-      "filename": "handwear-l.png",
-      "left": 533,
-      "top": 266,
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_handwear-l.png",
+      "left": 529,
+      "top": 260,
       "right": 637,
-      "bottom": 475,
-      "depth_median": 0.7421875
+      "bottom": 470,
+      "depth_median": 0.859375,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_handwear-l_depth.png"
     },
     {
-      "name": "earwear",
-      "filename": "earwear.png",
-      "left": 474,
-      "top": 198,
-      "right": 546,
-      "bottom": 247,
-      "depth_median": 0.6640625
+      "name": "legwear",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_legwear.png",
+      "left": 415,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.796875,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_legwear_depth.png"
     },
     {
-      "name": "eyebrow-r",
-      "filename": "eyebrow-r.png",
-      "left": 496,
-      "top": 173,
-      "right": 521,
-      "bottom": 185,
-      "depth_median": 0.611328125
-    },
-    {
-      "name": "handwear-r",
-      "filename": "handwear-r.png",
-      "left": 414,
-      "top": 258,
-      "right": 514,
-      "bottom": 599,
-      "depth_median": 0.5234375
-    },
-    {
-      "name": "ears-l",
-      "filename": "ears-l.png",
-      "left": 533,
-      "top": 195,
-      "right": 555,
-      "bottom": 225,
-      "depth_median": 0.515625
-    },
-    {
-      "name": "ears-r",
-      "filename": "ears-r.png",
-      "left": 468,
-      "top": 171,
-      "right": 485,
-      "bottom": 206,
-      "depth_median": 0.4453125
-    },
-    {
-      "name": "face",
-      "filename": "face.png",
-      "left": 480,
-      "top": 142,
-      "right": 563,
-      "bottom": 241,
-      "depth_median": 0.4375
-    },
-    {
-      "name": "nose",
-      "filename": "nose.png",
-      "left": 523,
-      "top": 206,
-      "right": 533,
-      "bottom": 217,
-      "depth_median": 0.4365
-    },
-    {
-      "name": "eyelash-r",
-      "filename": "eyelash-r.png",
-      "left": 490,
-      "top": 178,
-      "right": 517,
-      "bottom": 199,
-      "depth_median": 0.421875
-    },
-    {
-      "name": "eyelash-l",
-      "filename": "eyelash-l.png",
-      "left": 532,
-      "top": 195,
-      "right": 558,
-      "bottom": 211,
-      "depth_median": 0.35546875
-    },
-    {
-      "name": "mouth",
-      "filename": "mouth.png",
-      "left": 504,
-      "top": 219,
-      "right": 527,
-      "bottom": 232,
-      "depth_median": 0.353515625
-    },
-    {
-      "name": "irides-r",
-      "filename": "irides-r.png",
-      "left": 496,
-      "top": 183,
-      "right": 512,
-      "bottom": 196,
-      "depth_median": 0.302734375
-    },
-    {
-      "name": "irides-l",
-      "filename": "irides-l.png",
-      "left": 533,
-      "top": 198,
-      "right": 548,
-      "bottom": 210,
-      "depth_median": 0.302734375
-    },
-    {
-      "name": "front hair",
-      "filename": "front hair.png",
+      "name": "footwear",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_footwear.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.08203125
+      "depth_median": 0.7890625,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_footwear_depth.png"
+    },
+    {
+      "name": "eyebrow-l",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyebrow-l.png",
+      "left": 539,
+      "top": 188,
+      "right": 558,
+      "bottom": 195,
+      "depth_median": 0.705078125,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyebrow-l_depth.png"
+    },
+    {
+      "name": "neckwear",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_neckwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.6953125,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_neckwear_depth.png"
+    },
+    {
+      "name": "bottomwear",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_bottomwear.png",
+      "left": 415,
+      "top": 424,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.6875,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_bottomwear_depth.png"
+    },
+    {
+      "name": "neck",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_neck.png",
+      "left": 475,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.68359375,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_neck_depth.png"
+    },
+    {
+      "name": "topwear",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_topwear.png",
+      "left": 434,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.66015625,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_topwear_depth.png"
+    },
+    {
+      "name": "eyebrow-r",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyebrow-r.png",
+      "left": 496,
+      "top": 172,
+      "right": 521,
+      "bottom": 184,
+      "depth_median": 0.556640625,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyebrow-r_depth.png"
+    },
+    {
+      "name": "ears-l",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_ears-l.png",
+      "left": 534,
+      "top": 196,
+      "right": 555,
+      "bottom": 224,
+      "depth_median": 0.53515625,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_ears-l_depth.png"
+    },
+    {
+      "name": "earwear",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_earwear.png",
+      "left": 471,
+      "top": 201,
+      "right": 547,
+      "bottom": 243,
+      "depth_median": 0.53125,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_earwear_depth.png"
+    },
+    {
+      "name": "handwear-r",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_handwear-r.png",
+      "left": 406,
+      "top": 256,
+      "right": 515,
+      "bottom": 595,
+      "depth_median": 0.5,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_handwear-r_depth.png"
+    },
+    {
+      "name": "ears-r",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_ears-r.png",
+      "left": 468,
+      "top": 172,
+      "right": 485,
+      "bottom": 206,
+      "depth_median": 0.42578125,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_ears-r_depth.png"
+    },
+    {
+      "name": "face",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_face.png",
+      "left": 477,
+      "top": 139,
+      "right": 563,
+      "bottom": 240,
+      "depth_median": 0.4140625,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_face_depth.png"
+    },
+    {
+      "name": "mouth",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_mouth.png",
+      "left": 503,
+      "top": 219,
+      "right": 527,
+      "bottom": 232,
+      "depth_median": 0.380859375,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_mouth_depth.png"
+    },
+    {
+      "name": "nose",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_nose.png",
+      "left": 522,
+      "top": 202,
+      "right": 535,
+      "bottom": 219,
+      "depth_median": 0.37890625,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_nose_depth.png"
+    },
+    {
+      "name": "eyelash-r",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyelash-r.png",
+      "left": 490,
+      "top": 182,
+      "right": 517,
+      "bottom": 199,
+      "depth_median": 0.3583984375,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyelash-r_depth.png"
+    },
+    {
+      "name": "eyelash-l",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyelash-l.png",
+      "left": 532,
+      "top": 196,
+      "right": 557,
+      "bottom": 211,
+      "depth_median": 0.31640625,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_eyelash-l_depth.png"
+    },
+    {
+      "name": "irides-r",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_irides-r.png",
+      "left": 496,
+      "top": 183,
+      "right": 511,
+      "bottom": 196,
+      "depth_median": 0.267578125,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_irides-r_depth.png"
+    },
+    {
+      "name": "irides-l",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_irides-l.png",
+      "left": 532,
+      "top": 198,
+      "right": 547,
+      "bottom": 209,
+      "depth_median": 0.267578125,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_irides-l_depth.png"
+    },
+    {
+      "name": "front hair",
+      "filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_front hair.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.046875,
+      "depth_filename": "swimwear_jinni_51966227_20261018_043710_4a66eba0_front hair_depth.png"
     }
   ],
   "width": 1024,

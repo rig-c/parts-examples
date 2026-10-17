@@ -1095,8 +1095,8 @@
       "sha256": "f220d09ba1674f0b4acc0925f7409d190095fe737a075cd38cd291b873c8817b"
     },
     "viewer/index.html": {
-      "bytes": 56637,
-      "sha256": "5057b557522c08d7ccf0355c58889a629a484cb8d07bdb3c5e427bf5e1d513fb"
+      "bytes": 56783,
+      "sha256": "e79206918b7e265d0310049e1e0854f193c2ba88b18200c0b417c396c879dfc8"
     },
     "viewer/load-lifecycle.mjs": {
       "bytes": 2981,

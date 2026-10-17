@@ -1,115 +1,87 @@
 {
-  "spec": "family-swimwear-static-prototype/1",
+  "spec": "family-swimwear-static-prototype/2",
   "character": "nova",
   "status": "STATIC_REVIEW_ONLY",
   "parts": [
     {
       "name": "shoes",
-      "x": 221,
-      "y": 2000,
-      "w": 256,
-      "h": 247,
-      "opaque_px": 42727,
-      "source": "painting:source-sandals"
+      "x": 220,
+      "y": 1993,
+      "w": 259,
+      "h": 254,
+      "opaque_px": 41258,
+      "source": "full:seethrough-v3:shoes"
     },
     {
       "name": "bottomwear",
-      "x": 224,
-      "y": 964,
-      "w": 346,
-      "h": 1071,
-      "opaque_px": 242778,
-      "source": "full:legwear"
+      "x": 196,
+      "y": 1008,
+      "w": 390,
+      "h": 1016,
+      "opaque_px": 252050,
+      "source": "full:seethrough-v3:bottomwear"
     },
     {
       "name": "neck",
-      "x": 423,
-      "y": 457,
-      "w": 90,
-      "h": 135,
-      "opaque_px": 10017,
-      "source": "painting:visible-neck+full:neck"
+      "x": 384,
+      "y": 454,
+      "w": 167,
+      "h": 177,
+      "opaque_px": 15774,
+      "source": "full:seethrough-v3:neck"
     },
     {
       "name": "topwear",
-      "x": 249,
-      "y": 553,
-      "w": 290,
-      "h": 420,
-      "opaque_px": 89829,
-      "source": "full:topwear"
-    },
-    {
-      "name": "cardigan",
-      "x": 446,
-      "y": 792,
-      "w": 139,
-      "h": 558,
-      "opaque_px": 22427,
-      "source": "full:topwear"
+      "x": 247,
+      "y": 551,
+      "w": 339,
+      "h": 517,
+      "opaque_px": 114195,
+      "source": "full:seethrough-v3:topwear"
     },
     {
       "name": "sleeves",
-      "x": 237,
-      "y": 578,
-      "w": 485,
-      "h": 612,
-      "opaque_px": 52891,
-      "source": "full:handwear"
-    },
-    {
-      "name": "hands",
-      "x": 214,
-      "y": 865,
-      "w": 307,
-      "h": 485,
-      "opaque_px": 20853,
-      "source": "full:handwear"
+      "x": 212,
+      "y": 577,
+      "w": 489,
+      "h": 757,
+      "opaque_px": 61894,
+      "source": "full:seethrough-v3:sleeves"
     }
   ],
   "projection": {
-    "handwear-l": {
-      "core": 0,
-      "taken": 0,
-      "refused": 0
+    "shoes": {
+      "core": 35917,
+      "taken": 35916,
+      "refused": 1269
     },
-    "handwear-r": {
-      "core": 14892,
-      "taken": 812,
-      "refused": 14185
-    },
-    "legwear": {
-      "core": 131206,
-      "taken": 127255,
-      "refused": 5264
-    },
-    "footwear": {
-      "core": 17725,
-      "taken": 11011,
-      "refused": 7264
+    "bottomwear": {
+      "core": 227604,
+      "taken": 227583,
+      "refused": 423
     },
     "neck": {
       "core": 0,
       "taken": 0,
       "refused": 0
     },
-    "bottomwear": {
-      "core": 0,
-      "taken": 0,
-      "refused": 0
-    },
     "topwear": {
-      "core": 213550,
-      "taken": 85485,
-      "refused": 129539
+      "core": 83938,
+      "taken": 83511,
+      "refused": 1245
+    },
+    "sleeves": {
+      "core": 49586,
+      "taken": 47132,
+      "refused": 3485
     }
   },
   "projectionPolicy": {
-    "source": "Existing family/parts projection constants",
-    "coreAlpha": 250,
-    "kernel": 5,
-    "driftLimit": 90,
-    "sigma": 1
+    "source": "See-through v3 semantic layers + registered 4x upscaled visible source projection",
+    "coreAlpha": 200,
+    "kernel": 3,
+    "driftLimit": 75,
+    "sigma": 1.0
   },
   "geometry": {
     "inputSquare": [
@@ -125,167 +97,12 @@
       800,
       2284
     ],
-    "resample": "Pillow BICUBIC; no claim of byte parity with public OpenCV-equivalent helper"
+    "resample": "Pillow BICUBIC"
   },
   "edgeTreatment": {
     "upperGeneratedUnionAlphaErosionPx": 3,
-    "upperToRow": 580,
-    "sourceOuterBoundaryBandPx": 10,
-    "sourceBandRows": [
-      580,
-      1350
-    ]
+    "upperToRow": 576,
+    "method": "See-through v3 layer depth + low-frequency neck-topwear skin harmonization; zero manual polygons"
   },
-  "cuts": {
-    "openPants": [
-      [
-        294,
-        965
-      ],
-      [
-        455,
-        965
-      ],
-      [
-        565,
-        1135
-      ],
-      [
-        565,
-        2035
-      ],
-      [
-        195,
-        2035
-      ],
-      [
-        252,
-        1345
-      ],
-      [
-        266,
-        1185
-      ],
-      [
-        273,
-        1160
-      ],
-      [
-        278,
-        1120
-      ],
-      [
-        280,
-        1080
-      ],
-      [
-        284,
-        1040
-      ],
-      [
-        288,
-        1000
-      ]
-    ],
-    "cardiganInnerBoundary": [
-      [
-        260,
-        552
-      ],
-      [
-        515,
-        552
-      ],
-      [
-        535,
-        760
-      ],
-      [
-        452,
-        875
-      ],
-      [
-        452,
-        968
-      ],
-      [
-        294,
-        968
-      ],
-      [
-        298,
-        875
-      ],
-      [
-        245,
-        750
-      ]
-    ],
-    "leftHand": [
-      [
-        205,
-        1180
-      ],
-      [
-        255,
-        1180
-      ],
-      [
-        255,
-        1345
-      ],
-      [
-        205,
-        1345
-      ]
-    ],
-    "rightHand": [
-      [
-        350,
-        865
-      ],
-      [
-        465,
-        865
-      ],
-      [
-        520,
-        915
-      ],
-      [
-        520,
-        975
-      ],
-      [
-        350,
-        975
-      ]
-    ],
-    "sourceShoesFromRow": 2000,
-    "sourcePantsFullFromRow": 1150,
-    "sourcePantsToRow": 2035,
-    "sourceVisibleNeckPolygon": [
-      [
-        415,
-        455
-      ],
-      [
-        510,
-        455
-      ],
-      [
-        510,
-        565
-      ],
-      [
-        415,
-        565
-      ]
-    ]
-  },
-  "commonHead": "Existing accepted parts copied in the same canvas; generated head/hair are never adopted.",
-  "limitations": [
-    "This is an early flat source/occlusion review, not a mesh or runtime result.",
-    "Cut boundary fit and source projection omissions still require visual review; no hidden pixel was painted by a heuristic."
-  ]
+  "commonHead": "Existing accepted parts copied in the same canvas; generated head/hair are never adopted."
 }

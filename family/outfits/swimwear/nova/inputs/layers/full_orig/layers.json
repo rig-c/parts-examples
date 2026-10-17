@@ -1,240 +1,266 @@
 {
-  "prefix": "homewear_nova",
-  "timestamp": "seed42",
+  "prefix": "swimwear_nova_4178bfb4",
+  "timestamp": "20261018_044255_7c6984f8",
   "layers": [
     {
-      "name": "tail",
-      "filename": "tail.png",
+      "name": "neckwear",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_neckwear.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_neckwear_depth.png"
+    },
+    {
+      "name": "tail",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_tail.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_tail_depth.png"
     },
     {
       "name": "wings",
-      "filename": "wings.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_wings.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_wings_depth.png"
     },
     {
       "name": "objects",
-      "filename": "objects.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_objects.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_objects_depth.png"
     },
     {
       "name": "handwear-l",
-      "filename": "handwear-l.png",
-      "left": 1010,
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_handwear-l.png",
+      "left": 1011,
       "top": 1009,
-      "right": 1020,
-      "bottom": 1021,
-      "depth_median": 1.0
+      "right": 1016,
+      "bottom": 1015,
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_handwear-l_depth.png"
     },
     {
       "name": "back hair",
-      "filename": "back hair.png",
-      "left": 462,
-      "top": 1,
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_back hair.png",
+      "left": 463,
+      "top": 113,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.9609375
-    },
-    {
-      "name": "neckwear",
-      "filename": "neckwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.953125
-    },
-    {
-      "name": "handwear-r",
-      "filename": "handwear-r.png",
-      "left": 409,
-      "top": 260,
-      "right": 654,
-      "bottom": 607,
-      "depth_median": 0.875
-    },
-    {
-      "name": "legwear",
-      "filename": "legwear.png",
-      "left": 409,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.7734375
-    },
-    {
-      "name": "footwear",
-      "filename": "footwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.75
-    },
-    {
-      "name": "ears-r",
-      "filename": "ears-r.png",
-      "left": 490,
-      "top": 184,
-      "right": 503,
-      "bottom": 208,
-      "depth_median": 0.75
-    },
-    {
-      "name": "neck",
-      "filename": "neck.png",
-      "left": 522,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.7109375
-    },
-    {
-      "name": "bottomwear",
-      "filename": "bottomwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.69140625
-    },
-    {
-      "name": "topwear",
-      "filename": "topwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.625
+      "depth_median": 0.96875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_back hair_depth.png"
     },
     {
       "name": "eyewhite-r",
-      "filename": "eyewhite-r.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyewhite-r.png",
       "left": 488,
       "top": 183,
-      "right": 505,
+      "right": 506,
       "bottom": 199,
-      "depth_median": 0.54296875
+      "depth_median": 0.85546875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyewhite-r_depth.png"
     },
     {
       "name": "eyewhite-l",
-      "filename": "eyewhite-l.png",
-      "left": 519,
-      "top": 175,
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyewhite-l.png",
+      "left": 518,
+      "top": 174,
       "right": 546,
       "bottom": 194,
-      "depth_median": 0.54296875
+      "depth_median": 0.85546875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyewhite-l_depth.png"
+    },
+    {
+      "name": "handwear-r",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_handwear-r.png",
+      "left": 428,
+      "top": 259,
+      "right": 647,
+      "bottom": 598,
+      "depth_median": 0.8359375,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_handwear-r_depth.png"
+    },
+    {
+      "name": "legwear",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_legwear.png",
+      "left": 421,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.73828125,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_legwear_depth.png"
+    },
+    {
+      "name": "footwear",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_footwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.69921875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_footwear_depth.png"
+    },
+    {
+      "name": "neck",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_neck.png",
+      "left": 521,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.671875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_neck_depth.png"
+    },
+    {
+      "name": "bottomwear",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_bottomwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.6484375,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_bottomwear_depth.png"
+    },
+    {
+      "name": "topwear",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_topwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.64453125,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_topwear_depth.png"
     },
     {
       "name": "eyebrow-l",
-      "filename": "eyebrow-l.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyebrow-l.png",
       "left": 514,
       "top": 168,
       "right": 546,
-      "bottom": 177,
-      "depth_median": 0.509765625
+      "bottom": 178,
+      "depth_median": 0.537109375,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyebrow-l_depth.png"
     },
     {
       "name": "eyebrow-r",
-      "filename": "eyebrow-r.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyebrow-r.png",
       "left": 484,
       "top": 176,
-      "right": 501,
+      "right": 502,
       "bottom": 181,
-      "depth_median": 0.4375
+      "depth_median": 0.53515625,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyebrow-r_depth.png"
+    },
+    {
+      "name": "ears-r",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_ears-r.png",
+      "left": 491,
+      "top": 184,
+      "right": 507,
+      "bottom": 209,
+      "depth_median": 0.53125,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_ears-r_depth.png"
     },
     {
       "name": "face",
-      "filename": "face.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_face.png",
       "left": 484,
       "top": 138,
-      "right": 564,
-      "bottom": 237,
-      "depth_median": 0.43359375
+      "right": 566,
+      "bottom": 236,
+      "depth_median": 0.421875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_face_depth.png"
     },
     {
       "name": "nose",
-      "filename": "nose.png",
-      "left": 498,
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_nose.png",
+      "left": 499,
       "top": 189,
-      "right": 510,
-      "bottom": 206,
-      "depth_median": 0.43259375
+      "right": 511,
+      "bottom": 207,
+      "depth_median": 0.420875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_nose_depth.png"
     },
     {
       "name": "mouth",
-      "filename": "mouth.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_mouth.png",
       "left": 502,
-      "top": 209,
-      "right": 526,
+      "top": 208,
+      "right": 525,
       "bottom": 226,
-      "depth_median": 0.43259375
+      "depth_median": 0.4013671875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_mouth_depth.png"
     },
     {
       "name": "eyelash-r",
-      "filename": "eyelash-r.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyelash-r.png",
       "left": 484,
-      "top": 178,
-      "right": 506,
+      "top": 180,
+      "right": 507,
       "bottom": 200,
-      "depth_median": 0.37890625
+      "depth_median": 0.375,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyelash-r_depth.png"
     },
     {
       "name": "eyelash-l",
-      "filename": "eyelash-l.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyelash-l.png",
       "left": 518,
-      "top": 173,
-      "right": 547,
+      "top": 172,
+      "right": 549,
       "bottom": 192,
-      "depth_median": 0.31640625
+      "depth_median": 0.33203125,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_eyelash-l_depth.png"
     },
     {
       "name": "irides-r",
-      "filename": "irides-r.png",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_irides-r.png",
       "left": 492,
       "top": 184,
       "right": 505,
       "bottom": 199,
-      "depth_median": 0.30078125
+      "depth_median": 0.314453125,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_irides-r_depth.png"
     },
     {
       "name": "irides-l",
-      "filename": "irides-l.png",
-      "left": 525,
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_irides-l.png",
+      "left": 524,
       "top": 176,
       "right": 541,
-      "bottom": 191,
-      "depth_median": 0.30078125
-    },
-    {
-      "name": "ears-l",
-      "filename": "ears-l.png",
-      "left": 555,
-      "top": 178,
-      "right": 574,
-      "bottom": 210,
-      "depth_median": 0.259765625
+      "bottom": 190,
+      "depth_median": 0.314453125,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_irides-l_depth.png"
     },
     {
       "name": "front hair",
-      "filename": "front hair.png",
-      "left": 472,
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_front hair.png",
+      "left": 473,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.189453125
+      "depth_median": 0.244140625,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_front hair_depth.png"
+    },
+    {
+      "name": "ears-l",
+      "filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_ears-l.png",
+      "left": 555,
+      "top": 177,
+      "right": 575,
+      "bottom": 209,
+      "depth_median": 0.2421875,
+      "depth_filename": "swimwear_nova_4178bfb4_20261018_044255_7c6984f8_ears-l_depth.png"
     }
   ],
   "width": 1024,

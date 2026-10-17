@@ -23,18 +23,14 @@
     "bottomwear",
     "neck",
     "topwear",
-    "cardigan",
-    "sleeves",
-    "hands"
+    "sleeves"
   ],
   "appendedBones": [
     "cardigan_hem_r",
     "cardigan_hem_l"
   ],
   "motion": "Exact accepted motion bytes",
-  "commonPhysics": "Exact accepted29constraint prefix; new cardigan hem constraints separate",
+  "commonPhysics": "Exact accepted constraint prefix",
   "sourceReference": "Registered full static composition with exact accepted head assets; this is the intended composite reference, not untouched original artwork. Original crop remains painting-clothing-source.png.",
-  "status": "OFFICIAL_BUILD_CHECK_PHYSICS_PASS_BROWSER_REVIEWED",
-  "finalModelSHA256": "dfbe220fdb2ead0d78cb389bde05eb43405c1652911aa127aef4fcee6d43c061",
-  "validation": "out/check/check.json; runtime/physics.json; validation-runs.json"
+  "status": "AWAITING_OFFICIAL_BUILD_CHECK"
 }

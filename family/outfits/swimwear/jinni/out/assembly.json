@@ -27,9 +27,7 @@
     "bottomwear",
     "neck",
     "topwear",
-    "cardigan",
-    "sleeves",
-    "hands"
+    "sleeves"
   ],
   "appendedBones": [
     "cardigan_hem_r",

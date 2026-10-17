@@ -15,7 +15,7 @@ before = target.read_bytes()
 rig = json.loads(before)
 parts = {p["name"]: p for p in json.loads((home / "out/parts.json").read_text())["parts"]}
 rows = []
-for name, threshold, lower in [("neck", 625, True), ("topwear", 705, False), ("cardigan", 705, False)]:
+for name, threshold, lower in [("neck", 625, True), ("topwear", 705, False)]:
     attachment = rig["skins"]["default"][name][name]
     record = parts[name]
     changed = []

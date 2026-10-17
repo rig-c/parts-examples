@@ -1,24 +1,52 @@
 {
-  "spec": "family-homewear-seethrough/1",
-  "sourceSHA256": "9667de6186428f5596ca344cc1760cf789341f3f81ad9f33d41434eb299b36b7",
-  "installedNodeSHA256": "6c7874e0d6c526e67620c4d6a98f8586a516c3b38e9683372e3ae3bbe467b169",
+  "prompt_id": "2b54da8f-438e-4f54-aa90-1a74b721c612",
+  "image": "/Users/firejune/Workspace/Firejune/parts-examples-naru-homewear/family/outfits/swimwear/luna/inputs/seethrough-input/st_input_full.png",
+  "elapsed_s": 168.1,
+  "vram_free_before_gb": {
+    "cuda:0": 14.6,
+    "cuda:1": 10.8
+  },
+  "vram_free_low_gb": {
+    "cuda:0": 5.3,
+    "cuda:1": 10.8
+  },
+  "prefix": "swimwear_luna_0c842358",
   "seed": 42,
   "resolution": 1024,
   "steps": 30,
   "quant": "none",
-  "groupOffloadRequested": true,
-  "groupOffloadActive": false,
+  "offload": true,
   "lama": false,
-  "downloads": false,
-  "initialBF16": true,
-  "finalModelDtype": "bfloat16",
-  "behavior": "Installed model/tag version unchanged, including its internal head pass when selected by the installed node.",
-  "rawLayerCount": 24,
-  "postprocessLayerCount": 26,
+  "layer_count": 25,
+  "layer_names": [
+    "neckwear",
+    "tail",
+    "wings",
+    "handwear-l",
+    "back hair",
+    "footwear",
+    "legwear",
+    "eyebrow-r",
+    "objects",
+    "bottomwear",
+    "neck",
+    "topwear",
+    "eyebrow-l",
+    "handwear-r",
+    "eyelash-l",
+    "ears-l",
+    "face",
+    "ears-r",
+    "mouth",
+    "eyelash-r",
+    "eyewhite-r",
+    "eyewhite-l",
+    "irides-r",
+    "irides-l",
+    "front hair"
+  ],
   "canvas": [
     1024,
     1024
-  ],
-  "export": "Original node postprocess arrays and equivalent SavePSD wrapper metadata, fresh consumer directory; no shared output directory mutation.",
-  "seconds": 185.96899999980815
+  ]
 }

@@ -44,32 +44,20 @@
         "neck": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9558597640554602,
-          "maxEdgeRatio": 1.0194808692805464
+          "minEdgeRatio": 0.9281741925460387,
+          "maxEdgeRatio": 1.0467959236239044
         },
         "topwear": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9515193727860779,
-          "maxEdgeRatio": 1.0485306300014585
-        },
-        "cardigan": {
-          "windOrDragOnlyMax": 0,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9847384347865152,
-          "maxEdgeRatio": 1.0155256325202846
+          "minEdgeRatio": 0.9141129987995484,
+          "maxEdgeRatio": 1.086395377612181
         },
         "sleeves": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9960159873438655,
-          "maxEdgeRatio": 1.0039841312989986
-        },
-        "hands": {
-          "windOrDragOnlyMax": 0,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": null,
-          "maxEdgeRatio": 0
+          "minEdgeRatio": 0.9960159873438638,
+          "maxEdgeRatio": 1.0039841312989992
         }
       },
       "PASS": true
@@ -96,32 +84,20 @@
         "neck": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9558597640554602,
-          "maxEdgeRatio": 1.0194808692805464
+          "minEdgeRatio": 0.9281741925460387,
+          "maxEdgeRatio": 1.0467959236239044
         },
         "topwear": {
-          "windOrDragOnlyMax": 0.05627029805702222,
+          "windOrDragOnlyMax": 0.20732429472227368,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9514270265609606,
-          "maxEdgeRatio": 1.0484518989672422
-        },
-        "cardigan": {
-          "windOrDragOnlyMax": 0.3112376504916347,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9859996747477928,
-          "maxEdgeRatio": 1.0167287728626013
+          "minEdgeRatio": 0.9141665085623265,
+          "maxEdgeRatio": 1.0864681316432037
         },
         "sleeves": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9960159873438655,
-          "maxEdgeRatio": 1.0039841312989986
-        },
-        "hands": {
-          "windOrDragOnlyMax": 0,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": null,
-          "maxEdgeRatio": 0
+          "minEdgeRatio": 0.9960159873438638,
+          "maxEdgeRatio": 1.0039841312989992
         }
       },
       "PASS": true
@@ -148,32 +124,20 @@
         "neck": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9558597640554602,
-          "maxEdgeRatio": 1.0194808692805464
+          "minEdgeRatio": 0.9281741925460387,
+          "maxEdgeRatio": 1.0467959236239044
         },
         "topwear": {
-          "windOrDragOnlyMax": 0.02618229834016006,
+          "windOrDragOnlyMax": 0.08929421147935236,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9514671222581833,
-          "maxEdgeRatio": 1.0485851892971403
-        },
-        "cardigan": {
-          "windOrDragOnlyMax": 0.1417497712038982,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9842447620895554,
-          "maxEdgeRatio": 1.015938739164491
+          "minEdgeRatio": 0.91409455528846,
+          "maxEdgeRatio": 1.086415361487044
         },
         "sleeves": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9960159873438655,
-          "maxEdgeRatio": 1.0039841312989986
-        },
-        "hands": {
-          "windOrDragOnlyMax": 0,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": null,
-          "maxEdgeRatio": 0
+          "minEdgeRatio": 0.9960159873438638,
+          "maxEdgeRatio": 1.0039841312989992
         }
       },
       "PASS": true
@@ -200,32 +164,20 @@
         "neck": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9558597640554602,
-          "maxEdgeRatio": 1.0194808692805464
+          "minEdgeRatio": 0.9281741925460387,
+          "maxEdgeRatio": 1.0467959236239044
         },
         "topwear": {
           "windOrDragOnlyMax": 6.734597063311402,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.7972123582480408,
-          "maxEdgeRatio": 1.1811983550998177
-        },
-        "cardigan": {
-          "windOrDragOnlyMax": 2.727014011421942,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.971592591535703,
-          "maxEdgeRatio": 1.0158532298842229
+          "minEdgeRatio": 0.8710322546893946,
+          "maxEdgeRatio": 1.152521039959084
         },
         "sleeves": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9960159873438655,
-          "maxEdgeRatio": 1.0039841312989986
-        },
-        "hands": {
-          "windOrDragOnlyMax": 0,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": null,
-          "maxEdgeRatio": 0
+          "minEdgeRatio": 0.9960159873438638,
+          "maxEdgeRatio": 1.0039841312989992
         }
       },
       "PASS": true
@@ -252,32 +204,20 @@
         "neck": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9558597640554602,
-          "maxEdgeRatio": 1.0194808692805464
+          "minEdgeRatio": 0.9281741925460387,
+          "maxEdgeRatio": 1.0467959236239044
         },
         "topwear": {
-          "windOrDragOnlyMax": 0.44358667459615475,
+          "windOrDragOnlyMax": 1.5027645747739866,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9515172076474369,
-          "maxEdgeRatio": 1.0485306299929291
-        },
-        "cardigan": {
-          "windOrDragOnlyMax": 2.35067221315331,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9846229409659022,
-          "maxEdgeRatio": 1.0281039292343088
+          "minEdgeRatio": 0.9141128358627587,
+          "maxEdgeRatio": 1.0869876335093571
         },
         "sleeves": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9960159873438655,
-          "maxEdgeRatio": 1.0039841312989986
-        },
-        "hands": {
-          "windOrDragOnlyMax": 0,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": null,
-          "maxEdgeRatio": 0
+          "minEdgeRatio": 0.9960159873438638,
+          "maxEdgeRatio": 1.0039841312989992
         }
       },
       "PASS": true
@@ -304,32 +244,20 @@
         "neck": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9558597640554602,
-          "maxEdgeRatio": 1.0194808692805464
+          "minEdgeRatio": 0.9281741925460387,
+          "maxEdgeRatio": 1.0467959236239044
         },
         "topwear": {
-          "windOrDragOnlyMax": 0.8871733491923095,
+          "windOrDragOnlyMax": 3.0081990391933107,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9515150430400878,
-          "maxEdgeRatio": 1.0485306299929291
-        },
-        "cardigan": {
-          "windOrDragOnlyMax": 4.6824399757736215,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9725709997551212,
-          "maxEdgeRatio": 1.041815794847888
+          "minEdgeRatio": 0.9141126733254108,
+          "maxEdgeRatio": 1.0875625912607045
         },
         "sleeves": {
           "windOrDragOnlyMax": 0,
           "foldingTriangleReadings": 0,
-          "minEdgeRatio": 0.9960159873438655,
-          "maxEdgeRatio": 1.0039841312989986
-        },
-        "hands": {
-          "windOrDragOnlyMax": 0,
-          "foldingTriangleReadings": 0,
-          "minEdgeRatio": null,
-          "maxEdgeRatio": 0
+          "minEdgeRatio": 0.9960159873438638,
+          "maxEdgeRatio": 1.0039841312989992
         }
       },
       "PASS": true

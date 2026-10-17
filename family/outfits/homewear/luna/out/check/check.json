@@ -171,7 +171,7 @@
    "in": "rig.json"
   }
  ],
- "seam_mean": 0.154,
+ "seam_mean": 0.155,
  "seam_px_over_40": 9,
  "seam_px_over_80": 0,
  "seam_frame_scale": 1.07351,
@@ -283,26 +283,26 @@
  "TEXTURE_STRETCH": {
   "status": "PASS",
   "meshes": 6,
-  "triangles": 1278,
+  "triangles": 1891,
   "frames": 41,
-  "severity": 1.125,
+  "severity": 1.27,
   "severity_ceiling": 1.926544,
   "worst": {
-   "slot": "hair_front",
-   "triangle": 162,
+   "slot": "cardigan",
+   "triangle": 15,
    "vertices": [
-    155,
-    92,
-    91
+    9,
+    414,
+    10
    ],
    "edge": [
-    92,
-    91
+    10,
+    9
    ],
-   "frame": 24,
-   "ratio": 0.889
+   "frame": 10,
+   "ratio": 1.27
   },
-  "max_ratio": 1.116,
+  "max_ratio": 1.27,
   "min_ratio": 0.889,
   "per_mesh": [
    {
@@ -325,21 +325,21 @@
    },
    {
     "slot": "topwear",
-    "triangles": 196,
+    "triangles": 468,
     "max_ratio": 1.115,
-    "max_at": "triangle 59 (vertices 35 127 125), edge 127-125, idle frame 10",
-    "min_ratio": 0.961,
-    "min_at": "triangle 23 (vertices 13 95 77), edge 95-77, idle frame 12",
+    "max_at": "triangle 453 (vertices 273 278 274), edge 273-278, idle frame 10",
+    "min_ratio": 0.958,
+    "min_at": "triangle 38 (vertices 26 222 194), edge 222-194, idle frame 11",
     "severity": 1.115
    },
    {
     "slot": "cardigan",
-    "triangles": 409,
-    "max_ratio": 1.116,
-    "max_at": "triangle 309 (vertices 240 273 241), edge 241-240, idle frame 10",
-    "min_ratio": 0.954,
-    "min_at": "triangle 97 (vertices 77 326 78), edge 78-77, idle frame 10",
-    "severity": 1.116
+    "triangles": 750,
+    "max_ratio": 1.27,
+    "max_at": "triangle 15 (vertices 9 414 10), edge 10-9, idle frame 10",
+    "min_ratio": 0.968,
+    "min_at": "triangle 433 (vertices 307 357 356), edge 307-357, idle frame 11",
+    "severity": 1.27
    },
    {
     "slot": "sleeves",
@@ -387,10 +387,10 @@
   "within_limit": 8,
   "within_share": 0.9835,
   "error_limit": 40,
-  "error_px": 505,
+  "error_px": 509,
   "covered_alpha": 128,
-  "uncovered_error_px": 101,
-  "hole_count": 64,
+  "uncovered_error_px": 100,
+  "hole_count": 63,
   "largest": {
    "px": 8,
    "box": "518,2124 8x5"

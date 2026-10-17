@@ -4,7 +4,7 @@
   "generatedSHA256": "279290b055720d69882c34fefb5145ba911a807acdc19977ded68af488961cc6",
   "maskSHA256": "c807ab65cc7e32da3b9f2b3f470bdbeb6529ea18264eaf41096471d19f6ba689",
   "maskPixels": 2244,
-  "emptyMaskPixelsLeftUnchanged": 0,
+  "emptyMaskPixelsLeftUnchanged": 30,
   "maskPixelsWhereGeneratedSurfaceIsTransparent": 258,
   "sourceBox": [
     142,
@@ -37,37 +37,23 @@
     },
     {
       "part": "neck",
-      "changedPixels": 368,
+      "changedPixels": 93,
       "outsideMaskChangedPixels": 0,
-      "alphaChangedInsideMask": 350,
+      "alphaChangedInsideMask": 90,
       "outsideMaskAlphaMaxDelta": 0
     },
     {
       "part": "topwear",
-      "changedPixels": 1176,
+      "changedPixels": 2114,
       "outsideMaskChangedPixels": 0,
-      "alphaChangedInsideMask": 1160,
-      "outsideMaskAlphaMaxDelta": 0
-    },
-    {
-      "part": "cardigan",
-      "changedPixels": 692,
-      "outsideMaskChangedPixels": 0,
-      "alphaChangedInsideMask": 684,
+      "alphaChangedInsideMask": 2075,
       "outsideMaskAlphaMaxDelta": 0
     },
     {
       "part": "sleeves",
-      "changedPixels": 8,
+      "changedPixels": 7,
       "outsideMaskChangedPixels": 0,
-      "alphaChangedInsideMask": 8,
-      "outsideMaskAlphaMaxDelta": 0
-    },
-    {
-      "part": "hands",
-      "changedPixels": 0,
-      "outsideMaskChangedPixels": 0,
-      "alphaChangedInsideMask": 0,
+      "alphaChangedInsideMask": 7,
       "outsideMaskAlphaMaxDelta": 0
     }
   ],

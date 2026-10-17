@@ -1,240 +1,256 @@
 {
-  "prefix": "homewear_luna",
-  "timestamp": "seed42",
+  "prefix": "swimwear_luna_0c842358",
+  "timestamp": "20261018_043417_6f507227",
   "layers": [
     {
       "name": "neckwear",
-      "filename": "neckwear.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_neckwear.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
-    },
-    {
-      "name": "bottomwear",
-      "filename": "bottomwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_neckwear_depth.png"
     },
     {
       "name": "tail",
-      "filename": "tail.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_tail.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_tail_depth.png"
     },
     {
       "name": "wings",
-      "filename": "wings.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_wings.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 1.0
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_wings_depth.png"
     },
     {
-      "name": "objects",
-      "filename": "objects.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 1.0
+      "name": "handwear-l",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_handwear-l.png",
+      "left": 1010,
+      "top": 1009,
+      "right": 1020,
+      "bottom": 1021,
+      "depth_median": 1.0,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_handwear-l_depth.png"
     },
     {
       "name": "back hair",
-      "filename": "back hair.png",
-      "left": 426,
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_back hair.png",
+      "left": 427,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.921875
+      "depth_median": 0.9375,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_back hair_depth.png"
     },
     {
       "name": "footwear",
-      "filename": "footwear.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_footwear.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.90234375
+      "depth_median": 0.8359375,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_footwear_depth.png"
     },
     {
       "name": "legwear",
-      "filename": "legwear.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_legwear.png",
+      "left": 406,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.83203125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_legwear_depth.png"
+    },
+    {
+      "name": "eyebrow-r",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyebrow-r.png",
+      "left": 486,
+      "top": 187,
+      "right": 512,
+      "bottom": 198,
+      "depth_median": 0.79296875,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyebrow-r_depth.png"
+    },
+    {
+      "name": "objects",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_objects.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.875
+      "depth_median": 0.76953125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_objects_depth.png"
     },
     {
-      "name": "eyebrow-r",
-      "filename": "eyebrow-r.png",
-      "left": 488,
-      "top": 187,
-      "right": 512,
-      "bottom": 199,
-      "depth_median": 0.8046875
+      "name": "bottomwear",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_bottomwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.765625,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_bottomwear_depth.png"
+    },
+    {
+      "name": "neck",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_neck.png",
+      "left": 471,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.7578125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_neck_depth.png"
+    },
+    {
+      "name": "topwear",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_topwear.png",
+      "left": 0,
+      "top": 0,
+      "right": 1024,
+      "bottom": 1024,
+      "depth_median": 0.7265625,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_topwear_depth.png"
+    },
+    {
+      "name": "eyebrow-l",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyebrow-l.png",
+      "left": 525,
+      "top": 197,
+      "right": 549,
+      "bottom": 206,
+      "depth_median": 0.669921875,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyebrow-l_depth.png"
+    },
+    {
+      "name": "handwear-r",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_handwear-r.png",
+      "left": 407,
+      "top": 270,
+      "right": 578,
+      "bottom": 602,
+      "depth_median": 0.64453125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_handwear-r_depth.png"
+    },
+    {
+      "name": "eyelash-l",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyelash-l.png",
+      "left": 518,
+      "top": 205,
+      "right": 548,
+      "bottom": 224,
+      "depth_median": 0.48046875,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyelash-l_depth.png"
+    },
+    {
+      "name": "ears-l",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_ears-l.png",
+      "left": 532,
+      "top": 203,
+      "right": 548,
+      "bottom": 226,
+      "depth_median": 0.451171875,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_ears-l_depth.png"
+    },
+    {
+      "name": "face",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_face.png",
+      "left": 473,
+      "top": 147,
+      "right": 553,
+      "bottom": 251,
+      "depth_median": 0.41796875,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_face_depth.png"
+    },
+    {
+      "name": "ears-r",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_ears-r.png",
+      "left": 465,
+      "top": 190,
+      "right": 483,
+      "bottom": 219,
+      "depth_median": 0.4052734375,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_ears-r_depth.png"
+    },
+    {
+      "name": "mouth",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_mouth.png",
+      "left": 499,
+      "top": 224,
+      "right": 526,
+      "bottom": 242,
+      "depth_median": 0.375,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_mouth_depth.png"
+    },
+    {
+      "name": "eyelash-r",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyelash-r.png",
+      "left": 478,
+      "top": 194,
+      "right": 510,
+      "bottom": 216,
+      "depth_median": 0.33203125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyelash-r_depth.png"
     },
     {
       "name": "eyewhite-r",
-      "filename": "eyewhite-r.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyewhite-r.png",
       "left": 485,
       "top": 197,
-      "right": 506,
-      "bottom": 211,
-      "depth_median": 0.798828125
+      "right": 505,
+      "bottom": 212,
+      "depth_median": 0.28125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyewhite-r_depth.png"
     },
     {
       "name": "eyewhite-l",
-      "filename": "eyewhite-l.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyewhite-l.png",
       "left": 523,
       "top": 205,
       "right": 541,
       "bottom": 219,
-      "depth_median": 0.798828125
-    },
-    {
-      "name": "neck",
-      "filename": "neck.png",
-      "left": 470,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.703125
-    },
-    {
-      "name": "eyebrow-l",
-      "filename": "eyebrow-l.png",
-      "left": 524,
-      "top": 196,
-      "right": 547,
-      "bottom": 204,
-      "depth_median": 0.703125
-    },
-    {
-      "name": "topwear",
-      "filename": "topwear.png",
-      "left": 0,
-      "top": 0,
-      "right": 1024,
-      "bottom": 1024,
-      "depth_median": 0.6875
-    },
-    {
-      "name": "eyewear",
-      "filename": "eyewear.png",
-      "left": 480,
-      "top": 194,
-      "right": 552,
-      "bottom": 226,
-      "depth_median": 0.59375
-    },
-    {
-      "name": "handwear-l",
-      "filename": "handwear-l.png",
-      "left": 510,
-      "top": 282,
-      "right": 586,
-      "bottom": 592,
-      "depth_median": 0.5546875
-    },
-    {
-      "name": "handwear-r",
-      "filename": "handwear-r.png",
-      "left": 403,
-      "top": 281,
-      "right": 507,
-      "bottom": 602,
-      "depth_median": 0.51953125
-    },
-    {
-      "name": "ears-l",
-      "filename": "ears-l.png",
-      "left": 531,
-      "top": 204,
-      "right": 548,
-      "bottom": 226,
-      "depth_median": 0.4697265625
-    },
-    {
-      "name": "face",
-      "filename": "face.png",
-      "left": 472,
-      "top": 146,
-      "right": 553,
-      "bottom": 252,
-      "depth_median": 0.4375
-    },
-    {
-      "name": "mouth",
-      "filename": "mouth.png",
-      "left": 500,
-      "top": 224,
-      "right": 526,
-      "bottom": 242,
-      "depth_median": 0.42578125
-    },
-    {
-      "name": "ears-r",
-      "filename": "ears-r.png",
-      "left": 468,
-      "top": 194,
-      "right": 484,
-      "bottom": 222,
-      "depth_median": 0.4150390625
-    },
-    {
-      "name": "eyelash-r",
-      "filename": "eyelash-r.png",
-      "left": 479,
-      "top": 194,
-      "right": 509,
-      "bottom": 213,
-      "depth_median": 0.310546875
-    },
-    {
-      "name": "eyelash-l",
-      "filename": "eyelash-l.png",
-      "left": 523,
-      "top": 204,
-      "right": 547,
-      "bottom": 220,
-      "depth_median": 0.2509765625
+      "depth_median": 0.28125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_eyewhite-l_depth.png"
     },
     {
       "name": "irides-r",
-      "filename": "irides-r.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_irides-r.png",
       "left": 487,
       "top": 196,
-      "right": 503,
+      "right": 504,
       "bottom": 211,
-      "depth_median": 0.201171875
+      "depth_median": 0.189453125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_irides-r_depth.png"
     },
     {
       "name": "irides-l",
-      "filename": "irides-l.png",
-      "left": 524,
-      "top": 203,
-      "right": 539,
-      "bottom": 217,
-      "depth_median": 0.201171875
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_irides-l.png",
+      "left": 522,
+      "top": 204,
+      "right": 537,
+      "bottom": 218,
+      "depth_median": 0.189453125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_irides-l_depth.png"
     },
     {
       "name": "front hair",
-      "filename": "front hair.png",
+      "filename": "swimwear_luna_0c842358_20261018_043417_6f507227_front hair.png",
       "left": 0,
       "top": 0,
       "right": 1024,
       "bottom": 1024,
-      "depth_median": 0.150390625
+      "depth_median": 0.142578125,
+      "depth_filename": "swimwear_luna_0c842358_20261018_043417_6f507227_front hair_depth.png"
     }
   ],
   "width": 1024,
